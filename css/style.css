@@ -196,7 +196,7 @@ ul#filters {
 
 .copyrightSection {
   background-color: #424242;
-  color: #424242;
+  color: #212427;
   padding: 30px 5px;
 }
 
@@ -284,7 +284,7 @@ h2,
 h3,
 h4,
 h6 {
-  color: #000;
+  color: #212427;
 }
 
 p {
@@ -295,31 +295,6 @@ p {
 li  {
   font-size: medium;
   font-weight: 500;
-}
-
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
 }
 
 a { color: white; text-decoration: none; }
@@ -364,4 +339,9 @@ a { color: white; text-decoration: none; }
 .portoButton {
   display:block; 
   margin: 0 auto;
+}
+
+#iframe {
+    width: 100%;
+    border: none;
 }
