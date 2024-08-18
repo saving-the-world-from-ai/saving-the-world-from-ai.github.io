@@ -268,8 +268,3 @@ a { color: white; text-decoration: none; }
   display:block; 
   margin: 0 auto;
 }
-
-#iframe {
-    width: 100%;
-    border: none;
-}
