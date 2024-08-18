@@ -268,3 +268,12 @@ a { color: white; text-decoration: none; }
   display:block; 
   margin: 0 auto;
 }
+
+.counter {
+    font-size: calc(10px + 2vw); /* The font size will adjust based on viewport width */
+    line-height: 1.2;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: hidden;
+}
