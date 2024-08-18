@@ -263,3 +263,11 @@ a { color: white; text-decoration: none; }
   display:block; 
   margin: 0 auto;
 }
+
+@media (max-width: 576px) {
+  
+    .navbar-brand img {
+        width: 45vw;
+        height: auto:
+    }
+}
