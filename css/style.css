@@ -182,11 +182,6 @@ div#navbarNav.collapse.navbar-collapse {
   padding-left: 20px;
 }
 
-.navbar-toggler-icon {
-  background-size: 100%;
-  float: right;
-}
-
 .fixedNav #navigation {
   position: fixed;
   top: 0;
