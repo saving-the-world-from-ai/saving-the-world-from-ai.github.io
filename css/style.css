@@ -182,6 +182,11 @@ div#navbarNav.collapse.navbar-collapse {
   padding-left: 20px;
 }
 
+.navbar-toggler-icon {
+  background-size: 100%;
+  float: right;
+}
+
 .fixedNav #navigation {
   position: fixed;
   top: 0;
@@ -265,8 +270,7 @@ a { color: white; text-decoration: none; }
 }
 
 @media (max-width: 576px) {
-  
-    .navbar-brand img {
+    .navbar-brand .slides-container img {
         width: 45vw;
         height: auto:
     }
