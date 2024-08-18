@@ -176,15 +176,9 @@ div#navbarNav.collapse.navbar-collapse {
   justify-content: right;
 }
 
-.navbar-brand,
-.navbar-brand:hover {
-  color: #fff;
-  padding-left: 20px;
-}
-
 .navbar-toggler-icon {
   background-size: 100%;
-  float: right;
+  background-color: #fff;
 }
 
 .fixedNav #navigation {
