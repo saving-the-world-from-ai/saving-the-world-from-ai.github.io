@@ -178,7 +178,8 @@ div#navbarNav.collapse.navbar-collapse {
 
 .navbar-toggler-icon {
   background-size: 100%;
-  background-color: #fff;
+  background-color: transaparent;
+  color: #fff;
 }
 
 .fixedNav #navigation {
