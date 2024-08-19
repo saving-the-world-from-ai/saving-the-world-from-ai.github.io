@@ -268,4 +268,7 @@ a { color: white; text-decoration: none; }
         width: 45vw;
         height: auto:
     }
+    .navbar-brand {
+        width: 50vw;
+    }
 }
