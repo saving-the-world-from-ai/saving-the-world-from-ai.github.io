@@ -6,19 +6,26 @@ body {
 }
 
 p {
-    font-size: 22px;
+    font-size: 16px;
     line-height: 1.6;
     margin-bottom: 20px;
 }
 
+li {
+    margin-bottom: 10px;
+}
+
 @media (max-width: 576px) {
-    p {
+  p {
         font-size: 16px;
         line-height: 1.4;
         margin-bottom: 10px;
     }
   .section {
         padding: 40px 0;
+    }
+    li {
+       margin-bottom: 10px;
     }
 }
 
