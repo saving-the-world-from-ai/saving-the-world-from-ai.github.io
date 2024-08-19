@@ -74,7 +74,7 @@ p {
   background-color: #000;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -200px;
+  margin-bottom: -180px;
 }
 .skill {
   text-align: center;
@@ -223,16 +223,6 @@ h3,
 h4,
 h6 {
   color: #212427;
-}
-
-p {
-  font-weight: 500;
-  font-size: medium;
-}
-
-li  {
-  font-size: medium;
-  font-weight: 500;
 }
 
 a { color: white; text-decoration: none; }
