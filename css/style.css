@@ -259,14 +259,18 @@ a { color: white; text-decoration: none; }
 }
 
 @media (max-width: 576px) {
+    .navbar-brand .slides-container {
+        width: 50%;
+        height: auto:
+    }
     .navbar-brand .slides-container img {
-        width: 40%;
+        width: 90%;
         height: auto:
     }
     .navbar-brand {
         width: 100%;
     }
-    .navbar-toggler {
+    .navbar-toggler.ml-auto {
         height: 200%;
         width: 200%;
     }
