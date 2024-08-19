@@ -6,13 +6,13 @@ body {
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
     margin-bottom: 20px;
 }
 
 li {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 
@@ -85,7 +85,7 @@ li {
 .thanksSection.section {
   background-color: #000;
   margin-bottom: -180px;
-  width:100vw;
+  width: 100%;
   height: auto;
 }
 .skill {
