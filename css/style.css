@@ -176,11 +176,6 @@ div#navbarNav.collapse.navbar-collapse {
   justify-content: right;
 }
 
-.navbar-toggler-icon {
-  background-size: 100%;
-  background-color: transaparent;
-}
-
 .fixedNav #navigation {
   position: fixed;
   top: 0;
