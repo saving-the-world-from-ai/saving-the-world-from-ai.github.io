@@ -260,11 +260,14 @@ a { color: white; text-decoration: none; }
 
 @media (max-width: 576px) {
     .navbar-brand .slides-container img {
-        width: 45vw;
+        width: 40%;
         height: auto:
     }
     .navbar-brand {
         width: 100%;
-        height: auto;
+    }
+    .navbar-toggler {
+        height: 200%;
+        width: 200%;
     }
 }
