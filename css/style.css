@@ -1,9 +1,22 @@
 body {
-  font-size: 14px;
   color: #212427;
   background-color: #F2F3F4 !important;
   letter-spacing: 1px;
   font-family: 'Fira Mono' !important;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    p {
+        font-size: 13px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
 }
 
 .overlay {
@@ -244,31 +257,4 @@ a { color: white; text-decoration: none; }
   60% {
     transform: translateY(-15px);
   }
-}
-
-.counter1 {
-  font-size: 32px;
-}
-
-.portoButton {
-  display:block; 
-  margin: 0 auto;
-}
-
-@media (max-width: 576px) {
-    .navbar-brand .slides-container {
-        width: 50%;
-        height: auto:
-    }
-    .navbar-brand .slides-container img {
-        width: 90%;
-        height: auto:
-    }
-    .navbar-brand {
-        width: 100%;
-    }
-    .navbar-toggler.ml-auto {
-        height: 200%;
-        width: 200%;
-    }
 }
