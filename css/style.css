@@ -17,6 +17,9 @@ p {
         line-height: 1.4;
         margin-bottom: 10px;
     }
+  .section {
+        padding: 40px 0;
+    }
 }
 
 .overlay {
