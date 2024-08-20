@@ -228,8 +228,14 @@ h6 {
 
 a { color: white; text-decoration: none; }
 
+.titleMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .titleMessage .arrow {
-    bottom: 40px;    /* Positions it 40px above the bottom of the viewport */
+    bottom: 60px;    /* Positions it 40px above the bottom of the viewport */
     left: 50%;       /* Centers it horizontally */
     transform: translateX(-50%); /* Offsets it to perfectly center it */
     z-index: 1000;   /* Ensures it stays above other elements */
