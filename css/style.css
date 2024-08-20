@@ -237,10 +237,14 @@ h6 {
 
 a { color: white; text-decoration: none; }
 
-.arrow {
-  text-align: center;
-  margin: 5% 0;
+.titleMessage .arrow {
+    position: fixed; /* Keeps the arrow fixed in place */
+    bottom: 20px;    /* Positions it 20px above the bottom of the viewport */
+    left: 50%;       /* Centers it horizontally */
+    transform: translateX(-50%); /* Offsets it to perfectly center it */
+    z-index: 1000;   /* Ensures it stays above other elements */
 }
+
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
