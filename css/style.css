@@ -29,6 +29,15 @@ li {
        margin-bottom: 10px;
        font-size: 14px;
     }
+    .navbar-brand .logo {
+        width: 50%; /* Make the logo larger on mobile */
+        padding: 5px; /* Reduce padding */
+    }
+
+    .navbar-brand {
+        flex-grow: 1;
+        text-align: center; /* Center align the logo on mobile */
+    }
 }
 
 .overlay {
