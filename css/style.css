@@ -30,7 +30,7 @@ li {
        font-size: 14px;
     }
     .navbar-brand .logo {
-        width: 50%; /* Make the logo larger on mobile */
+        width: 100%; /* Make the logo larger on mobile */
         padding: 5px; /* Reduce padding */
     }
 
