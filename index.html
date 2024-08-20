@@ -339,8 +339,15 @@
             <h5>&copy;2024 Joe Mendez-Hughes</h5>
         </div>
 </section>
-
-
+	<script >
+		(function () {
+			const div = document.querySelector('.bg-image'),
+			src = div.getAttribute('data-bg').split(','), // Exctracts URLs from data-bg to an array
+			html = document.documentElement; // A reference to <html> element
+			html.style.setProperty('--bg-desktop', `url(${src[0]})`);
+			html.style.setProperty('--bg-mobile', `url(${src[1]})`);  
+		}());
+	</script>
 	<script src="js/countUp.js"></script>
 	<script src="js/countUp-jquery.js"></script>
 	<script src="js/jquery.superslides.min.js"></script>
