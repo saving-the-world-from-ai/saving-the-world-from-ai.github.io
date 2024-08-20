@@ -232,7 +232,7 @@ a { color: white; text-decoration: none; }
     position: absolute;
       width: 100%;
       height: auto;
-      bottom: 10%;
+      bottom: 5%;
       z-index: 5;
       text-align: center;
 }
