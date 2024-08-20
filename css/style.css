@@ -238,8 +238,7 @@ h6 {
 a { color: white; text-decoration: none; }
 
 .titleMessage .arrow {
-    position: absolute; /* Keeps the arrow fixed in place */
-    bottom: 30px;    /* Positions it 20px above the bottom of the viewport */
+    bottom: 40px;    /* Positions it 40px above the bottom of the viewport */
     left: 50%;       /* Centers it horizontally */
     transform: translateX(-50%); /* Offsets it to perfectly center it */
     z-index: 1000;   /* Ensures it stays above other elements */
