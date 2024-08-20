@@ -229,15 +229,16 @@ h6 {
 a { color: white; text-decoration: none; }
 
 .titleMessage {
-      text-align: center;
-      display: flex;
+    text-align: center;
+    display: flex;
     flex-wrap: wrap;
     place-content: end space-between;
 }
 
 .titleMessage .arrow {
     text-align: center;
-    margin: 5% 0;
+    margin: 0 auto;
+    bottom: 40px;
 }
 
 .bounce {
