@@ -19,16 +19,20 @@ li {
 .bgImage {
    background: url(img/joe-mendez-hughes-ai-engineer-high-resolution-logo.png);
 }
+:root {
+  --bg-desktop: none;
+  --bg-mobile: none;
+}
 
-
-@media (min-width: 577px) {
-  .bgImage {
-    background: url(img/joe-mendez-hughes-ai-engineer-high-resolution-logo.png);
+@media screen (min-width: 578px) {
+  .bg-image {
+    background-image: var(--bg-desktop);
   }
 }
-@media (max-width: 576px) {
-  .bgImage {
-    background: url(img/joe-mendez-mobile.png);
+
+@media screen (max-width: 576px) {
+  .bg-image {
+    background-image: var(--bg-mobile);
   }
   p {
         font-size: 14px;
