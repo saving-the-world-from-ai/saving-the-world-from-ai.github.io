@@ -37,9 +37,14 @@ li {
     }
 
     .navbar-brand {
-        flex-grow: 1;
+        flex-grow: 3;
         text-align: center; /* Center align the logo on mobile */
+        align-items: center;
     }
+}
+
+.flex-container {
+  display: flex;
 }
 
 .overlay {
