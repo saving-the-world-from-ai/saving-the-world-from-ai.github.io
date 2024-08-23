@@ -35,13 +35,6 @@ li {
        margin-bottom: 10px;
        font-size: 14px;
     }
-    .navbar-brand {
-        justify-content: center; 
-        align-items: center; 
-        margin: 0 auto;
-        flex-grow: 3;
-        text-align: center; /* Center align the logo on mobile */
-    }
 }
 
 .flex-container {
