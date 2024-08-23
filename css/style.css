@@ -2,9 +2,14 @@ body {
   color: #212427;
   background-color: #F2F3F4 !important;
   letter-spacing: 1px;
-  font-family: 'Fira Mono' !important;
+  font-family: "Exo", sans-serif !important;
 }
-
+.exo-<uniquifier> {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 p {
     font-size: 16px;
     line-height: 1.6;
@@ -52,7 +57,6 @@ li {
   padding: 11px 70px;
   border: solid 1px black;
   box-shadow: 12px 12px 2px 1px #7fa4d0;
-  font: Fira Mono;
 }
 .text-box2 {
   padding: 11px 70px;
@@ -60,7 +64,6 @@ li {
   box-shadow: 12px 12px 2px 1px #7fa4d0;
   background-color: #000000;
   color: #ffffff;
-  font: Fira Mono;
 }
 .section {
   padding: 100px 0;
