@@ -56,12 +56,14 @@ li {
 }
 
 .text-box {
+  width: 50%;
   padding: 11px 70px;
   border: solid 1px black;
   box-shadow: 12px 12px 2px 1px #1334d6;
 }
 
 .text-box2 {
+  width: 50%;
   padding: 11px 70px;
   border: solid 1px white;
   box-shadow: 12px 12px 2px 1px #1334d6;
@@ -162,7 +164,7 @@ li {
 .contactButton {
   color: #1334d6;
   border: solid 3px #1334d6;
-  font-size: 1rem;
+  font-size: 22px;
   font-weight: 500;
   background-color: #fff;
   padding: .475rem 1.475rem;
