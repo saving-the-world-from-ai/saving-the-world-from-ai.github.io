@@ -16,12 +16,22 @@ li {
     margin-bottom: 10px;
 }
 
+.img-responsive {
+  padding: 3px 0px 3px 5px; 
+  width: 35%; 
+  height: 35%;
+}
+
 @media screen (max-width: 576px) {
   p {
         font-size: 14px;
         line-height: 1.4;
         margin-bottom: 10px;
     }
+
+  .img-responsive {
+  max-width: 100%; 
+}
   .section {
         padding: 40px 0;
     }
@@ -31,6 +41,7 @@ li {
     }
     .navbar-brand .logo {
         width: 100%; /* Make the logo larger on mobile */
+      max-width: 100%
     }
 
     .navbar-brand {
@@ -39,7 +50,6 @@ li {
         margin: 0 auto;
         flex-grow: 3;
         text-align: center; /* Center align the logo on mobile */
-        align-items: center;
     }
 }
 
