@@ -28,10 +28,6 @@ li {
         line-height: 1.4;
         margin-bottom: 10px;
     }
-
-  .img-responsive {
-  max-width: 100%; 
-}
   .section {
         padding: 40px 0;
     }
@@ -39,11 +35,6 @@ li {
        margin-bottom: 10px;
        font-size: 14px;
     }
-    .navbar-brand .logo {
-        width: 100%; /* Make the logo larger on mobile */
-      max-width: 100%
-    }
-
     .navbar-brand {
         justify-content: center; 
         align-items: center; 
