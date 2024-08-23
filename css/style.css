@@ -17,9 +17,6 @@ li {
 }
 
 @media screen (max-width: 576px) {
-  .bg-image {
-    background: url(../img/joe-mendez-mobile.png) center center no-repeat;
-  }
   p {
         font-size: 14px;
         line-height: 1.4;
@@ -37,6 +34,9 @@ li {
     }
 
     .navbar-brand {
+        justify-content: center; 
+        align-items: center; 
+        margin: 0 auto;
         flex-grow: 3;
         text-align: center; /* Center align the logo on mobile */
         align-items: center;
