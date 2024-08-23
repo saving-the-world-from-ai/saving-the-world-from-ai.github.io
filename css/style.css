@@ -162,7 +162,7 @@ li {
 .contactButton {
   color: #1334d6;
   border: solid 3px #1334d6;
-  font-size: 23px;
+  font-size: 1rem;
   font-weight: 500;
   background-color: #fff;
   padding: .475rem 1.475rem;
