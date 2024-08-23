@@ -5,7 +5,7 @@ body {
   font-family: "Exo", sans-serif !important;
 }
 
-.exo-font-class {
+.exo font-class {
     font-family: "Exo", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400; /* Replace with the desired weight, e.g., 400, 700, etc. */
