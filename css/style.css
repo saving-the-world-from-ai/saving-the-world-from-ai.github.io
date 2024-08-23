@@ -28,6 +28,10 @@ li {
         line-height: 1.4;
         margin-bottom: 10px;
     }
+  .img-responsive {
+  width: 90vw; 
+  height: auto;
+}
   .section {
         padding: 40px 0;
     }
