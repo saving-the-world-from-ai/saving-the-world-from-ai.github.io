@@ -46,6 +46,10 @@ li {
     display: flex;
     max-width: 97%;
   }
+  .navbar navbar-expand-lg navbar-dark .navbar-brand {
+	font-weight: bold; 
+	font-size: 26px;
+}
   
 }
 
