@@ -187,7 +187,7 @@ li {
   text-decoration: none;
   color: #fff;
   background-color: #1334d6;
-  box-shadow: 12px 12px 2px 1px #f9e8a3 !important;
+  box-shadow: 12px 12px 2px 1px #FED141 !important;
 }
 
 .section .heading {
@@ -213,7 +213,7 @@ li {
 }
 
 #navigation li a:hover {
-  text-decoration: underline solid #f9e8a3 3px;
+  text-decoration: underline solid #FED141 3px;
 }
 
 div#navbarNav.collapse.navbar-collapse {
