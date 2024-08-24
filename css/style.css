@@ -8,7 +8,7 @@ body {
 .exo font-class {
     font-family: "Exo", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400; /* Replace with the desired weight, e.g., 400, 700, etc. */
+    font-weight: 400; 
     font-style: normal;
 }
 
@@ -29,7 +29,7 @@ li {
   height: 35%;
 }
 
-@media only screen and (max-device-width: 576px) {
+@media screen (max-width: 576px) {
   p {
     font-size: 14px;
     line-height: 1.4;
