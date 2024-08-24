@@ -213,8 +213,7 @@ li {
 }
 
 #navigation li a:hover {
-  text-decoration: underline solid #1334d6 .5px;
-  font-size: 130%;
+  text-decoration: underline solid #f9e8a3 3px;
 }
 
 div#navbarNav.collapse.navbar-collapse {
