@@ -42,6 +42,11 @@ li {
     margin-bottom: 10px;
     font-size: 14px;
   }
+  .pdf-container {
+    display: flex;
+    max-width: 97%;
+  }
+  
 }
 
 .flex-container {
