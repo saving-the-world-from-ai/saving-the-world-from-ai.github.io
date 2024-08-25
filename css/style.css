@@ -56,17 +56,13 @@ li {
 
 @media only screen and (max-width: 1000px) {
     .navbar-brand {
-    max-width: 500px; 
-    width: auto;
-    height: 42px;
+    max-width: 50vw; 
   }
 }
 
 @media only screen and (max-width: 750px) {
     .navbar-brand {
-      max-width: 375px; 
-      width: auto;
-      height: 42px;
+      max-width: 50vw; 
   }
 }
 
@@ -75,9 +71,7 @@ li {
         height: 60vh; /* Reduce the height on smaller screens */
     }
   .navbar-brand {
-    max-width: 205px; 
-    width: auto;
-    height: 40px;
+    max-width: 50vw; 
   }
   p {
     font-size: 16px;
