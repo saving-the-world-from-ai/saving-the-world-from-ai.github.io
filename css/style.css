@@ -61,7 +61,8 @@ li {
     }
   .navbar-brand {
     max-width: 205px; 
-    width: 100%;
+    width: 150px;
+    height: auto;
   }
   p {
     font-size: 16px;
