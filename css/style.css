@@ -60,10 +60,10 @@ li {
         height: 60vh; /* Reduce the height on smaller screens */
     }
   .navbar-brand {
-    max-width: 400px; 
+    max-width: 205px; 
   }
   p {
-    font-size: 14px;
+    font-size: 24px;
     line-height: 1.4;
     margin-bottom: 10px;
   }
