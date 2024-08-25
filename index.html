@@ -36,8 +36,10 @@
     <div id="slides">
 
         <div class="slides-container">
-            <img src="img/joe-mendez-hughes-ai-engineer-high-resolution-logo.png" alt="Joe Mendez Logo"
-                style="height: auto; max-width:100%;">
+            <picture>
+              <source srcset="img/" media="(max-width: 600px)" alt="Joe Mendez Logo">
+              <source srcset="img/joe-mendez-hughes-ai-engineer-high-resolution-logo.png"  alt="Joe Mendez Logo" style="height: auto; max-width:100%;">
+            </picture>
         </div>
         <div class="titleMessage">
             <div class="heading">
@@ -373,17 +375,14 @@
                     his indomitable spirit and unwavering dedication
                     played an integral role in saving the world from the clutches of A.I. Armageddon.</p>
             </div>
-            <div class="col-md-12" style="margin: 0 auto;">
-                <div class="slides-container" style="margin: 0 auto; margin-top: 20px;">
-                        <iframe src="img/Joe Mendez-Hughes Resume.pdf" type="application/pdf"
-                            style="border: none; margin: 0 auto;"></iframe>
-                        <br />
-                        <a href="img/Joe Mendez-Hughes Resume.docx" download class="contactButton" style="margin-top: 20px;">Download</a>
-                </div>
-            </div>
         </div>
     </section>
-
+    <section class="pdf-viewer-container">
+        <div class="pdf-viewer" style="margin-top: 20px;">
+            <iframe src="img/Joe Mendez-Hughes Resume.pdf" type="application/pdf"></iframe>
+        </div>
+        <a href="img/Joe Mendez-Hughes Resume.docx" download class="download-button">Download</a>
+    </section>
     <section id="contact" class="contactSection section" style="margin-top: 20px; border-top: solid 5px #FED141;">
         <div class="container text-center">
             <div class="heading">
