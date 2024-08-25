@@ -43,13 +43,13 @@ li {
     font-size: 14px;
   }
   .pdf-container {
-    max-width: 97%;
-    width: 400px;
+    max-width: 100%;
+    width: 90vw;
   }
   .navbar-brand {
 	font-weight: bold; 
-	font-size: 60px;
-}
+	
+	}
   
 }
 
