@@ -81,6 +81,15 @@ li {
   }
 }
 
+@media only screen and (max-width: 750px) {
+    .navbar-brand {
+    max-width: 75vw; 
+  }
+  .navbar-brand .img-responsive {
+    width: 73vw;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   .pdf-viewer {
         height: 60vh; /* Reduce the height on smaller screens */
