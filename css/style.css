@@ -58,11 +58,17 @@ li {
     .navbar-brand {
     max-width: 50vw; 
   }
+  .navbar-brand .img-responsive {
+    width: 45vw;
+  }
 }
 
 @media only screen and (max-width: 750px) {
     .navbar-brand {
       max-width: 50vw; 
+  }
+  .navbar-brand .img-responsive {
+    width: 45vw;
   }
 }
 
@@ -72,6 +78,9 @@ li {
     }
   .navbar-brand {
     max-width: 50vw; 
+  }
+  .navbar-brand .img-responsive {
+    width: 45vw;
   }
   p {
     font-size: 16px;
