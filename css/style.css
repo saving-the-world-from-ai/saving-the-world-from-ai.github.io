@@ -3,6 +3,7 @@ body {
   background-color: #f2f3f4 !important;
   letter-spacing: 1px;
   font-family: "Exo", sans-serif !important;
+  background-image: url('img/joe-mendez-hughes-ai-engineer-high-resolution-logo.png');
 }
 
 .exo font-class {
@@ -30,6 +31,9 @@ li {
 }
 
 @media only screen and (max-width: 576px) {
+  body {
+     background-image: url('img/joe-mendez-mobile.png');
+  }
   p {
     font-size: 14px;
     line-height: 1.4;
