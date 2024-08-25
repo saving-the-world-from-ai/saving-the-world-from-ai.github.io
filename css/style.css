@@ -58,7 +58,15 @@ li {
     .navbar-brand {
     max-width: 500px; 
     width: auto;
-    height: auto;
+    height: 42px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+    .navbar-brand {
+      max-width: 375px; 
+      width: auto;
+      height: 42px;
   }
 }
 
@@ -69,7 +77,7 @@ li {
   .navbar-brand {
     max-width: 205px; 
     width: auto;
-    height: auto;
+    height: 40px;
   }
   p {
     font-size: 16px;
