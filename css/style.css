@@ -23,7 +23,7 @@ li {
   margin-bottom: 10px;
 }
 
-.slides-container {
+.containerPDF {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ li {
     height: 100vh;
 }
 
-.slides-container img {
+.pdf-container {
     max-width: 100%;
     height: auto;
 }
@@ -55,14 +55,10 @@ li {
     margin-bottom: 10px;
     font-size: 14px;
   }
-  .pdf-container {
-    max-width: 100%;
-    width: 90vw;
-  }
-  .navbar-brand {
+  .navbar-brand li {
 	font-weight: bold; 
-	
-	}
+	font-size: 40px;
+   }
   
 }
 
