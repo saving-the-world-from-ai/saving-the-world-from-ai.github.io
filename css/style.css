@@ -56,19 +56,19 @@ li {
 
 @media only screen and (max-width: 1000px) {
     .navbar-brand {
-    max-width: 80vw; 
+    max-width: 75vw; 
   }
   .navbar-brand .img-responsive {
-    width: 79vw;
+    width: 73vw;
   }
 }
 
 @media only screen and (max-width: 750px) {
     .navbar-brand {
-      max-width: 80vw; 
+      max-width: 75vw; 
   }
   .navbar-brand .img-responsive {
-    width: 79vw;
+    width: 73vw;
   }
 }
 
@@ -77,10 +77,10 @@ li {
         height: 60vh; /* Reduce the height on smaller screens */
     }
   .navbar-brand {
-    max-width: 80vw; 
+    max-width: 75vw; 
   }
   .navbar-brand .img-responsive {
-    width: 79vw;
+    width: 73vw;
   }
   p {
     font-size: 16px;
