@@ -55,13 +55,21 @@ li {
     border: none;
 }
 
+@media only screen and (max-width: 1000px) {
+    .navbar-brand {
+    max-width: 500px; 
+    width: auto;
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   .pdf-viewer {
         height: 60vh; /* Reduce the height on smaller screens */
     }
   .navbar-brand {
     max-width: 205px; 
-    width: 150px;
+    width: auto;
     height: auto;
   }
   p {
