@@ -182,7 +182,8 @@ li {
 }
 
 .skillsSection.section {
-  background-color: #181818;
+  background-color: #000;
+  color: #fff;
 }
 
 .contactSection {
@@ -192,7 +193,8 @@ li {
 }
 
 .thanksSection.section {
-  background-color: #181818;
+  background-color: #000;
+  color: #fff;
   margin-bottom: -180px;
 }
 
