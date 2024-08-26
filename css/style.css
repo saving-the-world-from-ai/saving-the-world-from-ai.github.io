@@ -129,6 +129,12 @@ li {
     margin-bottom: 10px;
     font-size: 16px;
   }
+  .thanksSection.section slides-container img {
+  display: block; 
+  margin: 0 auto; 
+  max-width: 60vw; 
+  max-height: auto
+  }
 }
 
 .flex-container {
@@ -196,6 +202,13 @@ li {
   background-color: #000;
   color: #fff;
   margin-bottom: -180px;
+}
+
+.thanksSection.section slides-container img {
+  display: block; 
+  margin: 0 auto; 
+  max-width: 18vw; 
+  max-height: auto
 }
 
 .skill {
