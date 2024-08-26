@@ -1,5 +1,5 @@
 body {
-  color: #111111;
+  color: #333333;
   background-color: #f2f3f4 !important;
   letter-spacing: 1px;
   font-family: "Exo", sans-serif !important;
@@ -182,17 +182,17 @@ li {
 }
 
 .skillsSection.section {
-  background-color: #000;
+  background-color: #181818;
 }
 
 .contactSection {
   background-color: #f2f3f4;
-  color: #212427;
+  color: #333333;
   border: 1px solid #d5d5d5 20%;
 }
 
 .thanksSection.section {
-  background-color: #000;
+  background-color: #181818;
   margin-bottom: -180px;
 }
 
@@ -343,7 +343,7 @@ h2,
 h3,
 h4,
 h6 {
-  color: #212427;
+  color: #333333;
 }
 
 a {
