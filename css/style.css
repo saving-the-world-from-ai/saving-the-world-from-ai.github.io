@@ -129,12 +129,13 @@ li {
     margin-bottom: 10px;
     font-size: 16px;
   }
+  .thanks-container {
+     max-width: 200px; /* Maximum width of the image container */
+     margin: 0 auto;
+  }
   .thanks-container img {
-    max-width: 200px;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 100%; /* Make the image responsive */
+    height: auto;
   }
 }
 
