@@ -350,7 +350,7 @@ li {
   border-radius: 35px;
 }
 .downloadButton:hover {
-  border: solid 3px #fdf070;
+  border: solid 3px #ffffff;
   text-decoration: none;
   color: #fff;
   background-color: #1334d6;
@@ -367,7 +367,7 @@ li {
   border-radius: 35px;
 }
 .contactButton:hover {
-  border: solid 3px #fdf070;
+  border: solid 3px #ffffff;
   text-decoration: none;
   color: #fff;
   background-color: #1334d6;
@@ -397,7 +397,7 @@ li {
 }
 
 #navigation li a:hover {
-  text-decoration: underline solid #fdf070 2.5px;
+  text-decoration: underline solid #ffffff 2.5px;
 }
 
 div#navbarNav.collapse.navbar-collapse {
