@@ -1,20 +1,18 @@
-Welcome to the official website of Joe Mendez-Hughes, the hero on a mission to save the world from AI!
-With a wealth of experience as a veteran AI Engineer, Joe is here to shield businesses and organizations from the catastrophic consequences of bad AI design.
-						
-In today's data-driven world, businesses rely on accurate and reliable data to make informed decisions and gain a competitive edge.
-However, the exponential growth of data poses numerous challenges, including data quality issues, inefficient pipelines, and security vulnerabilities.
+Welcome to the official website of Joe Mendez-Hughes, our hero on a mission to save the world from A.I.!
+
+With a wealth of experience as a veteran A.I. engineer, Joe is here to shield businesses and organizations from the catastrophic consequences of A.I. gone wrong.
+			
+In today's data-driven world, the rapid expansion of information presents monumental challenges—ranging from corrupted datasets to ineffective pipelines and dangerously flawed A.I. models.
 This is where Joe steps in, armed with his unrivaled skills and dedication.
-							
-Joe is a highly skilled AI Engineer who has honed his craft over the years, specializing in creating robust data architecture and designing efficient machine learning pipelines.
-Proficient in a wide range of technologies such as Python, SQL, PyTorch, LLMs, and Generative AI, Joe leverages his extensive toolkit to tame the most complex AI landscapes.
-							
-But Joe is more than just a technical expert. He is a passionate problem-solver who thrives on taking on large-scale AI projects. His meticulous attention to
-detail and commitment to excellence ensures that your data is transformed into a valuable asset, empowering you to make data-driven decisions with confidence.							
-							
-When AI disaster strikes, you need a hero who can navigate through the chaos and restore order. Joe is that hero, armed with a proven track record of delivering successful
- machine learning and AI projects and saving businesses from the brink of disaster. Trust him to build or streamline your processes, and propel your business toward
- unprecedented success.
-						
-Explore his website to learn more about Joe's expertise, past projects, and how he can help your business overcome any machine learning and AI challenge. Don't let AI doom catch 
-you off guard—partner with Joe and secure your AI future today!
-						
+
+Joe is not just any A.I. Engineer—he is a master of his craft, specializing in constructing bulletproof data architectures and engineering hyper-efficient machine learning pipelines.
+Joe leverages his extensive toolkit to tame the most complex AI landscapes and is proficient in a wide range of technologies such as Python, Pandas, PyTorch, LLMs, NLP, and Generative AI.</p>
+ 
+Yet, Joe’s prowess extends beyond technical mastery. He is a visionary problem-solver, driven by a passion for tackling monumental A.I. challenges. His precision and unwavering 
+commitment ensure that your AI models are not just secure, but transformed into a powerful weapon of good, avoiding the pitfalls of A.I. catastrophe.</p>
+
+When A.I. goes awry, you need a hero who can navigate the storm and restore balance. Joe is that hero, with a proven record of steering machine learning and A.I. projects to success,
+rescuing businesses (and the world) from the edge of catastrophe. Trust Joe to architect your A.I. solutions or refine your processes, and watch as your business ascends to new heights of success.</p>
+
+Delve into his website to uncover Joe’s extensive expertise, explore his past triumphs, and discover how he can fortify your business against any machine learning or A.I. challenge.
+Don’t let A.I. doom catch you off guard—join forces with Joe Mendez-Hughes and secure your A.I. destiny today!						
