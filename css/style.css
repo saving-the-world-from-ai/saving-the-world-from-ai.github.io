@@ -196,7 +196,7 @@ li {
   width: 50%;
   padding: 11px 70px;
   border: solid 1px black;
-  box-shadow: 12px 12px 2px 1px grey;
+  box-shadow: 12px 12px 2px 1px #404040;
   color: #333333;
   font-weight: bold;
 }
@@ -209,7 +209,7 @@ li {
   width: 50%;
   padding: 11px 70px;
   border: solid 1px white;
-  box-shadow: 12px 12px 2px 1px #404040;
+  box-shadow: 12px 12px 2px 1px #1334D6;
   background-color: #121212;
   color: #ffffff;
   font-weight: bold;
@@ -329,7 +329,7 @@ li {
 }
 .downloadButton {
   color: #ffffff;
-  border: solid 3px #1334D6;
+  border: solid 3px #1334d6;
   font-size: 1.375rem;
   font-weight: 500;
   background-color: #121212;
@@ -341,12 +341,12 @@ li {
 .downloadButton:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #1334D6;
-  box-shadow: 12px 12px 2px 1px #404040 !important;
+  background-color: #1334d6;
+  box-shadow: 12px 12px 2px 1px #fdf070 !important;
 }
 .contactButton {
   color: #ffffff;
-  border: solid 3px #1334D6;
+  border: solid 3px #1334d6;
   font-size: 1.375rem;
   font-weight: 500;
   background-color: #121212;
@@ -358,8 +358,8 @@ li {
 .contactButton:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #1334D6;
-  box-shadow: 12px 12px 2px 1px #404040 !important;
+  background-color: #1334d6;
+  box-shadow: 12px 12px 2px 1px #fdf070 !important;
 }
 
 .section .heading {
@@ -387,7 +387,7 @@ li {
 }
 
 #navigation li a:hover {
-  text-decoration: underline solid #404040 2.5px;
+  text-decoration: underline solid #1334D6 2.5px;
 }
 
 div#navbarNav.collapse.navbar-collapse {
