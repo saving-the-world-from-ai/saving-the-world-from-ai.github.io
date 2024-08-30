@@ -387,10 +387,11 @@ body {
   
   #navigation {
     background-color: #161617cc;
-    padding: 10px 10px;
+    margin: 1% 15%;
     z-index: 100;
     width: 100%;
-    box-shadow: 0 2px 5px black;
+    box-shadow: 0 3px 3px black;
+    border-radius: 35px
   }
   
   #navigation li {
