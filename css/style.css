@@ -389,14 +389,13 @@ body {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: drop-shadow(8px 8px 10px light grey);
     margin-top: 1%; 
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     z-index: 100;
     width: 100%;
-    max-width: 72vw;
-    box-shadow: 0 1px 3px grey;
+    max-width: 70vw;
     border-radius: 35px;
-    border-color: solid 1px dark grey;
+    border-color: solid .5px light grey;
   }
   
   #navigation li {
