@@ -199,11 +199,11 @@ body {
     }
     .thanks-container {
       max-width: 95vw; /* Maximum width of the image container */
-      margin: 0 auto;
     }
     .thanks-container img {
       width: 100%; /* Make the image responsive */
       height: auto;
+      margin: 0 auto;
     }
   }
   
