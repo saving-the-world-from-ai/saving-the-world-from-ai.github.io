@@ -93,12 +93,12 @@ li {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
   .navbar-brand {
-    max-width: 75vw;
+    max-width: 33vw;
   }
   .navbar-brand .img-responsive {
-    width: 73vw;
+    width: 100%;
   }
   .desktop-image {
     display: none;
