@@ -250,7 +250,7 @@ li {
 }
 
   .thanks-container {
-    max-width: 400px; /* Maximum width of the image container */
+    max-width: 33vw; /* Maximum width of the image container */
     margin: 0 auto;
   }
   .thanks-container img {
