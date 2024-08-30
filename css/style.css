@@ -62,12 +62,6 @@ h5.script {
     padding-left: 10px;
     padding-right: 10px;
   }
-  .landing-image-container {
-    position: relative;
-    width: 95vw;
-    height: auto;
-    overflow: hidden;
-  }
 }
 p {
   font-size: 1rem;
@@ -157,10 +151,6 @@ li {
     margin-bottom: 10px;
     font-size: 1rem;
   }
-  .thanks-container {
-    margin: 0 auto;
-  }
-
   container.text-center.quote {
     padding-left: 10px;
     padding-right: 10px;
