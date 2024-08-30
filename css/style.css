@@ -167,7 +167,7 @@ li {
     padding-right: 15px;
   }
   .navbar-toggler-icon {
-    border-color: #f2f3f4;
+    border-color: #ffffff;
   }
   .text-box {
     max-width: 90vw;
@@ -367,7 +367,7 @@ li {
 }
 
 #navigation li a:hover {
-  text-decoration: underline solid #ffffff 2.5px;
+  text-decoration: underline solid #ffffff 2px;
 }
 
 div#navbarNav.collapse.navbar-collapse {
@@ -382,7 +382,7 @@ div#navbarNav.collapse.navbar-collapse {
 .loader {
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-color: #121212;
   position: fixed;
   top: 0px;
   left: 0px;
