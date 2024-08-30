@@ -117,6 +117,7 @@ li {
   }
   .mobile-image {
     display: block;
+    padding-top: 50%;
     width: 100%; /* Make the image responsive */
     height: auto;
     padding-left: 10px;
