@@ -111,6 +111,14 @@ li {
     padding-left: 10px;
     padding-right: 10px;
   }
+  .thanks-container {
+    max-width: 50vw; /* Maximum width of the image container */
+    margin: 0 auto;
+  }
+  .thanks-container img {
+    width: 100% /* Make the image responsive */
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -132,11 +140,11 @@ li {
     padding-right: 10px;
   }
   .thanks-container {
-    max-width: 75vw; /* Maximum width of the image container */
+    max-width: 65vw; /* Maximum width of the image container */
     margin: 0 auto;
   }
   .thanks-container img {
-    width: 75vw; /* Make the image responsive */
+    width: 100%; /* Make the image responsive */
     height: auto;
   }
 }
@@ -204,7 +212,7 @@ li {
     margin: 0 auto;
   }
   .thanks-container img {
-    width: 95vw; /* Make the image responsive */
+    width: 100%; /* Make the image responsive */
     height: auto;
   }
 }
