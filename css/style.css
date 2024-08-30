@@ -322,7 +322,6 @@ li {
   border-radius: 35px;
 }
 .downloadButton:hover {
-  border: solid 3px #ffffff;
   text-decoration: none;
   color: #fff;
   background-color: #1334d6;
@@ -339,7 +338,6 @@ li {
   border-radius: 35px;
 }
 .contactButton:hover {
-  border: solid 3px #ffffff;
   text-decoration: none;
   color: #fff;
   background-color: #1334d6;
