@@ -52,9 +52,9 @@ body {
   }
   
   .img-responsive {
-    padding: 3px 0px 3px 5px;
-    width: 35%;
-    height: 35%;
+    padding: 0px 0px 0px 5px;
+    width: 40%;
+    height: auto;
   }
   
   .pdf-viewer-container {
