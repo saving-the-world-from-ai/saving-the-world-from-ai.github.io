@@ -57,13 +57,16 @@ h5.script {
     display: none;
   }
   .mobile-image {
-    display: block;
-    max-width: 95vw;
+    width: 100%; /* Make the image responsive */
+    height: auto;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 50%; 
-    margin-left: 50%; 
-    transform: translate(-50%, -50%)
+  }
+  .landing-image-container {
+    position: relative;
+    width: 95vw;
+    height: auto;
+    overflow: hidden;
   }
 }
 p {
@@ -245,6 +248,15 @@ li {
   text-align: center;
   margin-left: 10px;
 }
+
+  .thanks-container {
+    max-width: 400px; /* Maximum width of the image container */
+    margin: 0 auto;
+  }
+  .thanks-container img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+  }
 
 .chart {
   position: relative;
