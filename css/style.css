@@ -387,7 +387,9 @@ body {
   
   #navigation {
     background-color: #161617cc;
-    margin: 1% 15%;
+    margin-top: 1%; 
+    margin-right: 15%;
+    margin-left: 15%;
     z-index: 100;
     width: 100%;
     box-shadow: 0 3px 3px black;
