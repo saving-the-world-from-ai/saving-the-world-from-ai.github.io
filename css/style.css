@@ -102,11 +102,13 @@ body {
       padding-right: 10px;
     }
     .thanks-container {
-      max-width: 50vw; /* Maximum width of the image container */
+      position: relative;
+      max-width: 90vw; /* Maximum width of the image container */
       margin: 0 auto;
     }
     .thanks-container img {
-      width: 100% /* Make the image responsive */
+      display: block;
+      width: 100%; /* Make the image responsive */
       height: auto;
     }
   }
