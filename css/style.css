@@ -157,11 +157,10 @@ li {
   .thanks-container {
     max-width: 200px; /* Maximum width of the image container */
     margin: 0 auto;
-  }
-  .thanks-container img {
     width: 100%; /* Make the image responsive */
     height: auto;
   }
+
   container.text-center.quote {
     padding-left: 10px;
     padding-right: 10px;
@@ -181,17 +180,6 @@ li {
     max-width: 90vw;
     width: 100%;
   }
-}
-
-.thanks-container {
-  max-width: 300px; /* Maximum width of the image container */
-  margin: 0 auto; /* Center the image container */
-}
-
-/* Styling the image */
-.thanks-container img {
-  width: 100%; /* Make the image responsive */
-  height: auto; /* Maintain aspect ratio */
 }
 
 .flex-container {
