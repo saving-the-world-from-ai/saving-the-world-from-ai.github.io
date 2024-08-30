@@ -50,19 +50,6 @@ h5.script {
 .mobile-image {
   display: none;
 }
-
-/* Media query for mobile devices */
-@media screen and (max-width: 500px) {
-  .desktop-image {
-    display: none;
-  }
-  .mobile-image {
-    width: 100%; /* Make the image responsive */
-    height: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
 p {
   font-size: 1rem;
   line-height: 1.6;
@@ -125,6 +112,16 @@ li {
 }
 
 @media only screen and (max-width: 576px) {
+  .desktop-image {
+    display: none;
+  }
+  .mobile-image {
+    display: block;
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .heading-section {
     text-align: center;
   }
@@ -170,6 +167,14 @@ li {
   .text-box2 {
     max-width: 90vw;
     width: 100%;
+  }
+    .thanks-container {
+    max-width: 95vw; /* Maximum width of the image container */
+    margin: 0 auto;
+  }
+  .thanks-container img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
   }
 }
 
