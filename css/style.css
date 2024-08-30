@@ -155,10 +155,7 @@ li {
     font-size: 1rem;
   }
   .thanks-container {
-    max-width: 200px; /* Maximum width of the image container */
     margin: 0 auto;
-    width: 100%; /* Make the image responsive */
-    height: auto;
   }
 
   container.text-center.quote {
@@ -242,19 +239,6 @@ li {
 .statsSection {
   background-color: #f5f5f5 !important;
   color: #333333 !important;
-}
-
-.thanksSection.section {
-  background-color: #121212;
-  color: #ffffff !important;
-  margin-bottom: -200px;
-}
-
-.thanksSection.section.slides-container.img {
-  display: block;
-  margin: 0 auto;
-  max-width: 18vw;
-  max-height: auto;
 }
 
 .skill {
