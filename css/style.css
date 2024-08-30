@@ -168,12 +168,8 @@ li {
     max-width: 90vw;
     width: 100%;
   }
-    .thanks-container {
-    max-width: 95vw; /* Maximum width of the image container */
-    margin: 0 auto;
-  }
   .thanks-container img {
-    width: 100%; /* Make the image responsive */
+    max-width: 95vw;
     height: auto;
   }
 }
