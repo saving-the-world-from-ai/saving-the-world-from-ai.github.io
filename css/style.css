@@ -102,14 +102,11 @@ body {
       padding-right: 10px;
     }
     .thanks-container {
-      position: relative;
-      max-width: 90vw; /* Maximum width of the image container */
-      margin: 0 auto;
+      max-width: 65vw; /* Maximum width of the image container */
     }
     .thanks-container img {
-      display: block;
       width: 100%; /* Make the image responsive */
-      height: auto;
+      height: 100%;
     }
   }
   
@@ -133,11 +130,10 @@ body {
     }
     .thanks-container {
       max-width: 65vw; /* Maximum width of the image container */
-      margin: 0 auto;
     }
     .thanks-container img {
       width: 100%; /* Make the image responsive */
-      height: auto;
+      height: 100%;
     }
   }
   
@@ -200,12 +196,11 @@ body {
       width: 100%;
     }
     .thanks-container {
-      max-width: 95vw; /* Maximum width of the image container */
+      max-width: 65vw; /* Maximum width of the image container */
     }
     .thanks-container img {
       width: 100%; /* Make the image responsive */
-      height: auto;
-      margin: 0 auto;
+      height: 100%;
     }
   }
   
