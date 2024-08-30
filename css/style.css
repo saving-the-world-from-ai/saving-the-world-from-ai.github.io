@@ -100,6 +100,17 @@ li {
   .navbar-brand .img-responsive {
     width: 73vw;
   }
+  .desktop-image {
+    display: none;
+  }
+  .mobile-image {
+    display: block;
+    padding-top: 50vh;
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -109,6 +120,17 @@ li {
   .navbar-brand .img-responsive {
     width: 73vw;
   }
+  .desktop-image {
+    display: none;
+  }
+  .mobile-image {
+    display: block;
+    padding-top: 50vh;
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -117,7 +139,7 @@ li {
   }
   .mobile-image {
     display: block;
-    padding-top: 50%;
+    padding-top: 50vh;
     width: 100%; /* Make the image responsive */
     height: auto;
     padding-left: 10px;
