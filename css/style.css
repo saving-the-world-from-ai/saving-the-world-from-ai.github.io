@@ -363,35 +363,59 @@ li {
 }
 .downloadButton {
   color: #ffffff;
-  border: solid 3px #1334d6;
   font-size: 1.375rem;
   font-weight: 500;
-  background-color: #121212;
   padding: 0.55rem 1.8rem;
   display: inline-block;
   margin-top: 20px;
   border-radius: 35px;
+  background: rgba( 19, 52, 214, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .downloadButton:hover {
-  text-decoration: none;
-  color: #fff;
-  background-color: #1334d6;
+  transition: 1s ease-in-out;
+  background: #4F95DA;
 }
+
+.downloadButton:hover svg {
+  stroke-dashoffset: -480;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
 .contactButton {
   color: #ffffff;
-  border: solid 3px #1334d6;
   font-size: 1.375rem;
   font-weight: 500;
-  background-color: #121212;
   padding: 0.55rem 1.8rem;
   display: inline-block;
   margin-top: 20px;
   border-radius: 35px;
+  background: rgba( 19, 52, 214, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .contactButton:hover {
-  text-decoration: none;
-  color: #fff;
-  background-color: #1334d6;
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.contactButton:hover svg {
+  stroke-dashoffset: -480;
 }
 .section .heading {
   text-align: center;
