@@ -51,9 +51,9 @@ body {
   }
   
   .img-responsive {
-    padding: 0px 0px 0px 10px;
+    padding-left: 10px;
     width: 50%;
-    height: auto;
+    height: 100%;
   }
   
   .pdf-viewer-container {
@@ -394,11 +394,10 @@ body {
     width: 100%;
     max-width: 70vw;
     border-radius: 35px;
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
   }
   
   #navigation li {
-    padding: 0 7px;
     margin: 0 auto;
     color: #ffffff;
   }
