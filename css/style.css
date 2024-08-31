@@ -404,11 +404,11 @@ li {
   -webkit-backdrop-filter: blur( 1px );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   outline: none;
-  transition: .5s ease-in-out;
+  transition: .75s ease-in-out;
 }
 
 .downloadButton:hover {
-  transition: .5s ease-in-out;
+  transition: .75s ease-in-out;
   background: #1334D6;
   color: #fff;
   text-decoration: none;
@@ -426,7 +426,7 @@ svg {
   stroke: #fff;
   stroke-dasharray: 150 480;
   stroke-dashoffset: 150;
-  transition: .5s ease-in-out;
+  transition: .75s ease-in-out;
 }
 
 .contactButton {
@@ -443,11 +443,11 @@ svg {
   -webkit-backdrop-filter: blur( 1px );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   outline: none;
-  transition: .5s ease-in-out;
+  transition: .75s ease-in-out;
 }
 
 .contactButton:hover {
-  transition: .5s ease-in-out;
+  transition: .75s ease-in-out;
   background: #1334D6;
   color: #fff;
   text-decoration: none;
