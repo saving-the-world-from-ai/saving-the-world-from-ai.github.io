@@ -204,7 +204,18 @@ body {
       width: 100%; /* Make the image responsive */
       height: auto;
     }
-  }
+    # navigation {
+    padding: 10px 10px;
+    z-index: 100;
+    width: 100%;
+    background: rgba(39, 39, 39, 0.1);
+    backdrop-filter: blur(60px);
+     /* fallback for old browsers */
+    -webkit-backdrop-filter: blur(60px);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.3);
+    }
+}
   
   .flex-container {
     display: flex;
