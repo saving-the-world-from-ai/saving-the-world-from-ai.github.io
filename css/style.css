@@ -367,15 +367,19 @@ li {
   display: inline-block;
   margin-top: 20px;
   border-radius: 35px;
-  background: rgba( 19, 52, 214, 0.3 );
+  background: rgba( 19, 52, 214, 0.15 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
+  backdrop-filter: blur( 1px );
+  -webkit-backdrop-filter: blur( 1px );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
+  outline: none;
+  transition: 1s ease-in-out;
 }
 .downloadButton:hover {
   transition: 1s ease-in-out;
   background: #4F95DA;
+  color: #fff;
+  text-decoration: none;
 }
 
 .downloadButton:hover svg {
@@ -401,15 +405,19 @@ svg {
   display: inline-block;
   margin-top: 20px;
   border-radius: 35px;
-  background: rgba( 19, 52, 214, 0.3 );
+  background: rgba( 19, 52, 214, 0.15 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
+  backdrop-filter: blur( 1px );
+  -webkit-backdrop-filter: blur( 1px );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
+  outline: none;
+  transition: 1s ease-in-out;
 }
 .contactButton:hover {
   transition: 1s ease-in-out;
-  background: #4F95DA;
+  background: #1334D6;
+  color: #fff;
+  text-decoration: none;
 }
 
 .contactButton:hover svg {
