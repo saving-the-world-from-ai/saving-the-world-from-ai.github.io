@@ -237,7 +237,6 @@ li {
   border: solid 1px black;
   box-shadow: 12px 12px 2px 1px #b3b3b3;
   color: #333333;
-  font-weight: bold;
 }
 .text-box {
   display: flex;
@@ -251,7 +250,6 @@ li {
   box-shadow: 12px 12px 2px 1px #1334d6;
   background-color: #121212;
   color: #ffffff;
-  font-weight: bold;
 }
 
 .section {
