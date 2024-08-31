@@ -424,6 +424,7 @@ li {
 
 #navigation li a {
   color: #ffffff;
+  font-size: 0.875rem !important;
 }
 
 #navigation li a:hover {
