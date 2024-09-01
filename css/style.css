@@ -206,13 +206,19 @@ li {
     max-width: 95vw;
     width: 95vw;
     height: auto;
-    margin-top: -63px;
+    position:relative;
+    bottom:95vw;
+    left:0px;
+    z-index:0;
   }
   .box2 {
     max-width: 95vw;
-    width: 100%;
+    width: 95vw;
     height: auto;
-    margin-top: -63px;
+    position:relative;
+    bottom:95vw;
+    left:0px;
+    z-index:0;
   }
   div.thanks-container {
     max-width: 90vw; /* Maximum width of the image container */
