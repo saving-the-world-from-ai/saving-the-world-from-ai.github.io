@@ -516,7 +516,7 @@ svg {
   width: 100%;
   max-width: 60vw;
   border-radius: 35px;
-  background: rgba(39, 39, 39, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   /* fallback for old browsers */
   -webkit-backdrop-filter: blur(10px);
