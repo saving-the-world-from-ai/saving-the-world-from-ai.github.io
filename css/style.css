@@ -88,7 +88,7 @@ li {
 
 @media only screen and (max-width: 1024px) {
   .navbar-brand {
-    max-width: 33vw;
+    max-width: 25vw;
   }
   .navbar-brand .img-responsive {
     width: 100%;
@@ -116,10 +116,10 @@ li {
 
 @media only screen and (max-width: 750px) {
   .navbar-brand {
-    max-width: 75vw;
+    max-width: 50vw;
   }
   .navbar-brand .img-responsive {
-    width: 73vw;
+    width: 100%;
   }
   .desktop-image {
     display: none;
@@ -162,10 +162,10 @@ li {
     margin: 0;
   }
   .navbar-brand {
-    max-width: 75vw;
+    max-width: 73vw;
   }
   .navbar-brand .img-responsive {
-    width: 73vw;
+    width: 100%;
     margin: 0 auto;
   }
   p {
@@ -193,11 +193,19 @@ li {
     color: #ffffff;
   }
   .text-box {
-    max-width: 90vw;
+    max-width: 95vw;
     width: 100%;
   }
   .text-box2 {
-    max-width: 90vw;
+    max-width: 95vw;
+    width: 100%;
+  }
+  .box {
+    max-width: 95vw;
+    width: 100%;
+  }
+  .box2 {
+    max-width: 95vw;
     width: 100%;
   }
   div.thanks-container {
@@ -254,7 +262,7 @@ li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 26.5%;
+  margin-left: 26.25%;
   margin-top: -5%;
   width: 50%;
   padding: 14px 70px;
@@ -277,7 +285,7 @@ li {
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba( 0, 0, 0, 0.18);
   color: #ffffff;
   z-index: 1;
   }
@@ -287,7 +295,7 @@ li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 26.5%;
+  margin-left: 26.25%;
   margin-top: -5%;
   width: 50%;
   padding: 14px 70px;
