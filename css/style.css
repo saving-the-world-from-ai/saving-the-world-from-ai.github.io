@@ -195,20 +195,24 @@ li {
   .text-box {
     max-width: 95vw;
     width: 100%;
+     height: auto;
   }
   .text-box2 {
     max-width: 95vw;
-    width: 100%;
+    width: 95vw;
+     height: auto;
   }
   .box {
     max-width: 95vw;
-    width: 100%;
-    margin-top: -90%;
+    width: 95vw;
+    height: auto;
+    margin-top: -98%;
   }
   .box2 {
     max-width: 95vw;
     width: 100%;
-    margin-top: -90%;
+     height: auto;
+    margin-top: -98%;
   }
   div.thanks-container {
     max-width: 90vw; /* Maximum width of the image container */
