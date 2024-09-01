@@ -264,6 +264,39 @@ li {
   border-radius: 10px;
   }
 
+.text-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  padding: 18px 60px;
+  background: rgba( 19, 52, 214, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: #ffffff;
+  z-index: 1;
+  }
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20%;
+  margin-top: -6%;
+  width: 50%;
+  padding: 16px 60px;
+  background: #1334D6;
+  color: transparent;
+  z-index: 0;
+  border-radius: 10px;
+  }
+
 .section {
   padding: 50px 0;
 }
