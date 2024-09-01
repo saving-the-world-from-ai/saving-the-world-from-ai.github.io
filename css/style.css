@@ -231,23 +231,6 @@ li {
   display: flex;
 }
 
-.text-box2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 0 auto;
-  width: 50%;
-  padding: 11px 70px;
-  box-shadow: 12px 12px 2px 1px #B3B3B3;
-  background: rgba( 231, 231, 231, 0.25 );
-  backdrop-filter: blur( 8px );
-  -webkit-backdrop-filter: blur( 8px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  color: #333333;
-  }
-
 .text-box {
   display: flex;
   justify-content: center;
@@ -255,10 +238,12 @@ li {
   text-align: center;
   margin: 0 auto;
   width: 50%;
-  padding: 11px 70px;
+  padding: 18px 60px;
   background: rgba( 18, 18, 18, 0.25 );
-  backdrop-filter: blur( 8px );
-  -webkit-backdrop-filter: blur( 8px );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   color: #ffffff;
   z-index: 1;
@@ -269,13 +254,14 @@ li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 25%;
-  margin-top: -5%;
+  margin-left: 20%;
+  margin-top: -6%;
   width: 50%;
-  padding: 11px 70px;
+  padding: 16px 60px;
   background: #1334D6;
   color: transparent;
   z-index: 0;
+  border-radius: 10px;
   }
 
 .section {
