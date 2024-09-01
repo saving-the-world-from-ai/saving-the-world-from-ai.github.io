@@ -162,7 +162,7 @@ li {
     margin: 0;
   }
   .navbar-brand {
-    max-width: 73vw;
+    max-width: 60vw;
   }
   .navbar-brand .img-responsive {
     width: 100%;
@@ -522,6 +522,10 @@ svg {
   border: 0.25px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 80px rgba(0, 0, 0, 0.3);
 }
+
+.navbar-brand {
+    margin: 0px, 0px, 0px, 0px, !important;
+  }
 
 #navigation li {
   margin: 0 auto;
