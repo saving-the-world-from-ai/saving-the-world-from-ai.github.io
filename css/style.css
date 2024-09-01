@@ -251,7 +251,7 @@ li {
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  width: 50%;
+  max-width: 648px;
   padding: 14px 70px;
   background: rgba( 18, 18, 18, 0.25 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -270,7 +270,7 @@ li {
   text-align: center;
   margin-left: 26%;
   margin-top: -4.5%;
-  width: 50%;
+  max-width: 648px;
   padding: 14px 70px;
   background: #1334D6;
   color: transparent;
@@ -284,7 +284,7 @@ li {
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  width: 50%;
+  max-width: 648px;
   padding: 14px 70px;
   background: rgba( 19, 52, 214, 0.15 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -303,7 +303,7 @@ li {
   text-align: center;
   margin-left: 26%;
   margin-top: -4.5%;
-  width: 50%;
+  max-width: 648px;
   padding: 14px 70px;
   background: #1334D6;
   color: transparent;
