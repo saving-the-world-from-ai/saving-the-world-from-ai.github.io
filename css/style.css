@@ -238,7 +238,7 @@ li {
   text-align: center;
   margin: 0 auto;
   width: 50%;
-  padding: 18px 60px;
+  padding: 14px 70px;
   background: rgba( 18, 18, 18, 0.25 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 4px );
@@ -254,10 +254,10 @@ li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 20%;
-  margin-top: -6%;
+  margin-left: 25%;
+  margin-top: -4%;
   width: 50%;
-  padding: 16px 60px;
+  padding: 14px 70px;
   background: #1334D6;
   color: transparent;
   z-index: 0;
@@ -271,7 +271,7 @@ li {
   text-align: center;
   margin: 0 auto;
   width: 50%;
-  padding: 18px 60px;
+  padding: 14px 70px;
   background: rgba( 19, 52, 214, 0.15 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 4px );
@@ -287,7 +287,7 @@ li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 30%;
+  margin-left: 25%;
   margin-top: -6%;
   width: 50%;
   padding: 14px 70px;
