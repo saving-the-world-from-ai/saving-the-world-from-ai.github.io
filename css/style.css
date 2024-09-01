@@ -209,10 +209,12 @@ li {
     height: auto;
   }
   .box {
-    display: none
+    background: transparent !important;
+    color: transparent !important;
   }
   .box2 {
-    display:none
+    background: transparent !important;
+    color: transparent !important;
   }
   div.thanks-container {
     max-width: 90vw; /* Maximum width of the image container */
