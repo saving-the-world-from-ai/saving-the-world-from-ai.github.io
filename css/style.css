@@ -266,6 +266,7 @@ li {
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   color: #f1f1f1;
   z-index: 1;
+  white-space: nowrap
   }
 
 .box {
@@ -282,6 +283,7 @@ li {
   color: transparent;
   z-index: 0;
   border-radius: 0px;
+  white-space: nowrap
   }
 
 .box2 {
@@ -298,6 +300,7 @@ li {
   color: transparent;
   z-index: 0;
   border-radius: 0px;
+  white-space: nowrap
   }
 
 .section {
