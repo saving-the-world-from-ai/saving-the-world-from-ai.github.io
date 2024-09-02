@@ -202,10 +202,6 @@ li {
     width: 100%;
   }
 
-  .hidden-xs {
-    display: none !important;
-  }
-
   div.thanks-container {
     max-width: 90vw; /* Maximum width of the image container */
     height: 100%;
@@ -245,7 +241,7 @@ li {
   margin: 0 auto;
   width: 100%;
   max-width: 540px;
-  padding: 14px 70px;
+  padding: 11px 70px;
   background: rgba(18, 18, 18, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(6px);
@@ -266,7 +262,7 @@ li {
   margin-left: 26.25%;
   margin-top: -5%;
   width: 50%;
-  padding: 14px 70px;
+  padding: 11px 70px;
   background: #1334d6;
   color: transparent;
   z-index: 0;
@@ -467,7 +463,7 @@ svg {
   z-index: 100;
   width: 100%;
   max-width: 60vw;
-  border-radius: 35px;
+  border-radius: 40px;
   background: rgba(39, 39, 39, 0.1);
   backdrop-filter: blur(10px);
   /* fallback for old browsers */
@@ -496,7 +492,8 @@ div#navbarNav.collapse.navbar-collapse {
 
 .fixedNav #navigation {
   position: fixed;
-  top: 0;
+    width: 100%;
+    top: 0;
 }
 
 .loader {
