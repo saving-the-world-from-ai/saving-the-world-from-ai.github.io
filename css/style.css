@@ -140,11 +140,13 @@ li {
     width: 100%; /* Make the image responsive */
     height: auto;
   }
-    .box {
-    display: none
+  .box {
+    background: transparent !important;
+    color: transparent !important;
   }
   .box2 {
-    display:none
+    background: transparent !important;
+    color: transparent !important;
   }
 }
 
