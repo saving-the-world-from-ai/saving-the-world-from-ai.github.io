@@ -216,6 +216,12 @@ li {
     width: 100%; /* Make the image responsive */
     height: auto;
   }
+  #thanks {
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+  }
+  
   #navigation {
     padding: 10px 10px !important;
     z-index: 100;
