@@ -216,11 +216,6 @@ li {
     width: 100%; /* Make the image responsive */
     height: auto;
   }
-  #thanks {
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
   
   #navigation {
     padding: 10px 10px !important;
