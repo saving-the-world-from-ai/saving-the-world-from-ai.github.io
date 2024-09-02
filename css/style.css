@@ -183,6 +183,9 @@ li {
   container.text-center.quote {
     padding-left: 10px;
     padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   h5.quote {
     padding-left: 15px;
