@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saving the World from A.I.!</title>
 
-
     <link rel="stylesheet" type="text/css" href="css/superslides.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +20,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="img/joe-mendez-hughes-ai-engineer-favicon-color.svg" />
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/f397b2f39c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -58,6 +61,9 @@
                     <a class="nav-link" href="#about">ABOUT</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#stats">NUMBERS</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#skills">SKILLS</a>
                 </li>
                 <li class="nav-item">
@@ -76,9 +82,9 @@
     <section id="about" class="section">
         <div class="container text-center">
             <div class="row">
-                <div class="heading" style="display: inline-block; white-space: nowrap;">
-                    <h2 class="text-box">Joe's Intro</h2>
-                    <h2 class="box" style="color: #333333;">Joe's Intro</h2>
+                <div class="col-12" style="display:block; margin-top: 35px;">
+                    <h2 class="text-box">About Joe Mendez-Hughes</h2>
+                    <h2 class="box" style="color: #333333;">About Joe Mendez-Hughes</h2>
                 </div>
                 <div class="col-12" style="margin-top: 40px;">
                     <p>Welcome to the official website of Joe Mendez-Hughes, our hero on a mission to <i>Save the World
@@ -112,16 +118,55 @@
             </div>
         </div>
     </section>
-    <div id="skills" class="skillsSection section"
-        style="margin-top: 10px; border: 2px #404040; border-style: solid none;">
+    <section id="stats" class="section statsSection">
+        <div class="container text-center">
+            <div class="col-12" style="display:block;">
+                <h2 class="text-box2">Joe's Numbers</h2>
+                <h2 class="box2" style="color: #333333;">Joe's Numbers</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="squareItem">
+                        <div class="squareInnerContainer" style="height: 300px;">
+                            <div class="squareIcon">
+                                <i class="fa-regular fa-calendar-days" style="color: #1334D6;"></i>
+                            </div>
+                            <div class="squareContent" style="color: #ffffff">
+                                <h4>Joe has a valiant</h4>
+                                <div class="counter" style="font-size: 2.5rem; margin: 10px">7</div>
+                                <h4>years of experience!</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="squareItem">
+                        <div class="squareInnerContainer" style="height: 300px;">
+                            <div class="squareIcon">
+                                <i class="fa-solid fa-microchip" style="color: #1334D6;"></i>
+                            </div>
+                            <div class="squareContent" style="color: #ffffff">
+                                <h4>Joe has battled over</h4>
+                                <div class="counter"
+                                    style="font-size: 2.5rem; margin-top: 15px; margin-bottom: 20px; margin-left: auto; margin-right: auto;">
+                                    1000000000</div>
+                                <h4>parameters!</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="skills" class="skillsSection section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <div class="heading" style="display: inline-block; white-space: nowrap;">
+                    <div class="col-12" style="display:block;">
                         <h2 class="text-box">Joe's Skills</h2>
                         <h2 class="box" style="color: #333333;">Joe's Skills</h2>
                     </div>
-                    <h5 style="margin-top: 10px;">Swipe left or right</h>
+                    <h5 style="margin-top: 40px;">Swipe left or right</h>
                 </div>
                 <div class="owl-carousel owl-theme">
                     <div class="skill">
@@ -143,7 +188,7 @@
                     <div class="skill">
                         <span class="chart">
                             <img class="manImg" src="img/Pandas_logo.webp" alt="Skill Icon"
-                                style="padding-top: 37px; width: 175%; height: auto; ">
+                                style="padding-top: 37px; width: 175%; height: auto;">
                             <canvas height="180" width="152"></canvas>
                         </span>
                         <h5>Pandas</h5>
@@ -198,13 +243,14 @@
             </div>
         </div>
     </div>
-    <section id="work" class="section" style="margin: 0 auto; border: 2px #404040; border-style: solid none;">
-        <div class="container" style="display: block; margin: 0 auto;">
-            <div class="heading" style="display: inline-block; white-space: nowrap;">
+    <section id="work" class="section" style="border: 3px #404040; border-style: solid none;">
+        <div class="container">
+            <div class="col-12" style="display:block;">
                 <h2 class="text-box">Joe's Experience</h2>
                 <h2 class="box" style="color: #333333;">Joe's Experience</h2>
             </div>
-            <div class="col-md-8" style="margin-top: 10px; padding-bottom: 10px; border-bottom: solid 5px #1334D6; ">
+            <div class="resume-section"
+                style="margin-top: 10px; padding-bottom: 10px; border-bottom: solid 5px #1334D6; ">
                 <h5 style="color: #ffffff !important"><b>SENIOR A.I. ENGINEER</b></h5>
                 <h6><i>Dynamo Technologies, Washington, D.C.</i></h6>
                 <h6>September 2023 - May 2024</h6>
@@ -229,7 +275,8 @@
                     of the battle against A.I. adversity, relentlessly striving to
                     safeguard the future and prevent disaster.</p>
             </div>
-            <div class="col-md-8" style="margin-top: 20px; padding-bottom: 10px; border-bottom: solid 5px #1334D6;">
+            <div class="resume-section"
+                style="margin-top: 20px; padding-bottom: 10px; border-bottom: solid 5px #1334D6;">
                 <h5 style="color: #ffffff !important"><b>MACHINE LEARNING ENGINEER</b></h5>
                 <h6><i>Deep Cloud IQ, New York, NY</i></h6>
                 <h6>September 2023 - May 2024</h6>
@@ -257,7 +304,8 @@
                     could thrive in a world
                     where A.I. was harnessed for good, not destruction.</p>
             </div>
-            <div class="col-md-8" style="margin-top: 20px; padding-bottom: 10px; border-bottom: solid 5px #1334D6;">
+            <div class="resume-section"
+                style="margin-top: 20px; padding-bottom: 10px; border-bottom: solid 5px #1334D6;">
                 <h5 style="color: #ffffff !important"><b>SOFTWARE ENGINEER</b></h5>
                 <h6><i>Millennial Shift Technologies, Phoenix, AZ</i></h6>
                 <h6>September 2023 - May 2024</h6>
@@ -266,8 +314,8 @@
                         organizations stood resilient against the onslaught of A.I. chaos.</li>
                     <li>Fearlessly embraced the challenge of creating powerful and efficient SOAP and RESTful APIs.</li>
                     <li>Fueled by a relentless pursuit of excellence, Joe tirelessly engineered elegant and scalable
-                        solutions, securing the data of the first, third, and fifth-largest wholesale insurance
-                        companies in the U.S. of A.</li>
+                        solutions, securing the data of the first, third, and fifth largest wholesale insurance
+                        companies in the US of A.</li>
                     <li>Fearlessly delved into the depths of software systems, debugging and optimizing with unwavering
                         determination.</li>
                     <li>Championed data integrity and quality, crafting robust error-handling mechanisms and validation
@@ -279,7 +327,7 @@
                     the world from the impending A.I. catastrophe, Joe's contributions
                     as a Software Engineer was paramount in fortifying organizations against chaos.</p>
             </div>
-            <div class="col-md-8" style="margin-top: 20px; padding-bottom: 10px;">
+            <div class="resume-section" style="margin-top: 20px; padding-bottom: 10px;">
                 <h5 style="color: #ffffff !important"><b>JR SOFTWARE ENGINEER</b></h5>
                 <h6><i>Aristocrat - Independent Contractor, Las Vegas, NV</i></h6>
                 <h6>September 2023 - May 2024</h6>
@@ -303,43 +351,40 @@
         </div>
     </section>
     <section id="resume">
-        <div class="container text-center" style="padding-top: 30px;">
-            <div class="heading" style="display: block; white-space: nowrap;">
+        <div class="container text-center" style="padding-top: 20px; padding-bottom: 20px;">
+            <div class="col-12" style="margin-top: 30px; display:block;">
                 <h2 class="text-box">Joe's Resume</h2>
                 <h2 class="box" style="color: #333333;">Joe's Resume</h2>
             </div>
-        </div>
-        <div class="pdf-viewer-container" style="margin-top: 40px;">
-            <div class="pdf-viewer" style="margin-bottom: 20px;">
-                <iframe src="img/Joe Mendez-Hughes Resume.pdf" type="application/pdf" alt="Joe Mendez-Hughes Resume.pdf"
-                    style="margin: 0 auto;"></iframe>
+            <div class="pdf-viewer-container" style="margin-top: 40px;">
+                <div class="pdf-viewer" style="margin-bottom: 20px;">
+                    <iframe src="img/Joe Mendez-Hughes Resume.pdf" type="application/pdf"
+                        alt="Joe Mendez-Hughes Resume.pdf" style="margin: 0 auto;"></iframe>
+                </div>
+                <a href="img/Joe Mendez-Hughes Resume.docx" download class="downloadButton">Download</a>
+                <h6 style="margin: 20px;"><i>Download Joe's Resume as a Word .docx file</i></h6>
             </div>
-            <a href="img/Joe Mendez-Hughes Resume.docx" download class="downloadButton">Download</a>
-            <h6 style="margin: 20px; word-wrap: normal !important"><i>Download Joe's Resume as a Word .docx file</i>
-            </h6>
         </div>
-
     </section>
     <section id="contact" class="contactSection section"
-        style="margin-top: 20px; border: 2px #404040; border-style: solid none;">
-        <div class="container text-center" style="padding-top: 10px; margin: 0 auto;">
-            <div class="heading" style="display: block; white-space: nowrap;">
-                <h2 class="text-box">Joe's Email</h2>
-                <h2 class="box" style="color: #333333;">Joe's Email</h2>
+        style="margin-top: 20px; border: 3px #404040; border-style: solid none;">
+        <div class="container text-center" style="padding-top: 30px;">
+            <div class="heading" style="display:block;">
+                <h2 class="text-box">Get in Touch with Joe!</h2>
+                <h2 class="box" style="color: #333333;">Get in Touch with Joe!</h2>
                 <a href="mailto:joemendezhughes@gmail.com" email class="contactButton"
-                    style="margin-top: 40px;">Email</a>
+                    style="margin-top: 50px;">Email</a>
+                <h5 style="margin-top: 35px; color: #ffffff">Invite Joe to join your team and help <i>Save the World
+                        from A.I.!</i></h5>
             </div>
-            <h5 style="margin-top: 20px; color: #ffffff;">Invite Joe to join your team and help
-                <i>Save the World from A.I.!</i>
-            </h5>
         </div>
     </section>
     <section id="thanks" class="thanksSection section">
         <div class="thanks-container">
             <img src="img/joe-mendez-hughes-transparent.svg" alt="Logo" style="margin-top: 20px; padding-bottom: 20px;">
         </div>
-        <div class="col-md-4" style="display: block; margin-left: auto; margin-right: auto; text-align: center">
-            <h5 class="quote" style="padding-top: 40px;">Dear Esteemed Visitor,<br>
+        <div class="container text-center quote">
+            <h5 class="quote" style="padding-top: 30px;">Dear Esteemed Visitor,<br>
                 On behalf of Joe Mendez-Hughes, we extend our heartfelt gratitude for gracing us with your presence.
                 Your visit honors Joe Mendez-Hughes's tireless dedication to <i>Saving the World from A.I.!</i></h5>
             <p
@@ -348,22 +393,17 @@
         </div>
     </section>
 
-
     <script src="js/countUp.js"></script>
     <script src="js/countUp-jquery.js"></script>
     <script src="js/jquery.superslides.min.js"></script>
     <script src="js/jquery.easypiechart.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/typed.min.js"></script>
-    <script src="https://kit.fontawesome.com/c75a0766ea.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.5/dist/isotope.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
