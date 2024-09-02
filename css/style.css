@@ -256,12 +256,11 @@ li {
   padding: 14px 70px;
   background: rgba( 18, 18, 18, 0.25 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 8px );
-  -webkit-backdrop-filter: blur( 8px );
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   color: #ffffff;
   z-index: 1;
-  border-radius: 12px;
   }
 
 .box {
@@ -276,7 +275,6 @@ li {
   background: #1334D6;
   color: transparent;
   z-index: 0;
-  border-radius: 12px;
   }
 
  .section {
