@@ -598,10 +598,10 @@ a {
 }
 
 .circle-container {
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -616,8 +616,8 @@ a {
     top: 15%;
     left: 30%;
     background: #4776E6;
-    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);
-    background: linear-gradient(to right, #8E54E9, #4776E6);   
+    background: -webkit-linear-gradient(315deg, #ffffff 0%, #5899e2 74%); 
+    background: linear-gradient(315deg, #ffffff 0%, #5899e2 74%);   
     height: 350px;
     width: 350px;
     border-radius: 50%;
@@ -627,8 +627,8 @@ a {
     bottom: 5%;
     right: 35%;
     background: #bc4e9c;
-    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
-    background: linear-gradient(to right, #f80759, #bc4e9c);
+    background: -webkit-linear-gradient(315deg, #090947 0%, #5a585a 74%);
+    background: linear-gradient(315deg, #090947 0%, #5a585a 74%);
     height: 400px;
     width: 400px;
     border-radius: 50%;
@@ -639,8 +639,8 @@ a {
     right: 35%;
     background-color: #FF3CAC;
     background: #ff9966;
-    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
-    background: linear-gradient(to right, #ff5e62, #ff9966);
+    background: -webkit-linear-gradient(315deg, #2234ae 0%, #191714 74%);
+    background: linear-gradient(315deg, #2234ae 0%, #191714 74%);
     height: 150px;
     width: 150px;
     border-radius: 50%;
