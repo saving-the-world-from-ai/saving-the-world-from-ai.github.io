@@ -598,7 +598,13 @@ a {
 }
 
 .circle-container {
-  
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .circle-container .circle-1, .circle-2, .circle-3 {
