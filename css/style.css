@@ -263,8 +263,8 @@ li {
   padding: 14px 70px;
   background: rgba( 18, 18, 18, 0.25 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 6px );
-  -webkit-backdrop-filter: blur( 6px );
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
   border-radius: 0px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   color: #f1f1f1;
@@ -294,8 +294,8 @@ li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 26.5%;
-  margin-top: -4.25%;
+  margin-left: 15.5vw;
+  margin-top: -4.9vh;
   max-width: 540px;
   width: 100%;
   padding: 14px 70px;
