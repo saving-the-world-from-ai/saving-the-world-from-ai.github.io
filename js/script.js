@@ -9,6 +9,20 @@ function newFunction() {
     });
 
 
+      var myswiper = new Swiper('.myswiper', {
+             direction: 'horizontal'
+             loop: true,
+             effect: "cube", // select effect cube
+             cube: {         // set the options
+                 slideShadows: true,
+                 shadow: true,
+                 shadowOffset: 20,
+                 shadowScale: 0.94
+                }});
+
+
+    
+
     $(document).ready(function () {
 
         $('#slides').superslides({});
