@@ -112,12 +112,7 @@ li {
     width: 100%; /* Make the image responsive */
     height: auto;
   }
-  .box {
-    display: none !important;
-  }
-  .box2 {
-    display: none !important;
-  }
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -145,12 +140,6 @@ li {
   .thanks-container img {
     width: 100%; /* Make the image responsive */
     height: auto;
-  }
-  .box {
-    display: none !important;
-  }
-  .box2 {
-    display: none !important;
   }
 }
 
@@ -215,12 +204,6 @@ li {
     max-width: 95vw;
     width: 100%;
   }
-  .box {
-    display: none !important;
-  }
-  .box2 {
-    display: none !important;
-  }
 
   div.thanks-container {
     max-width: 90vw; /* Maximum width of the image container */
@@ -278,39 +261,6 @@ li {
   white-space: nowrap
   }
 
-.box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-left: 15vw;
-  margin-top: -5.5vh;
-  max-width: 540px;
-  width: 100%;
-  padding: 14px 70px;
-  background: #1334D6;
-  color: transparent;
-  z-index: 0;
-  border-radius: 0px;
-  white-space: nowrap
-  }
-
-.box2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-left: 15.4vw;
-  margin-top: -5.0vh;
-  max-width: 540px;
-  width: 100%;
-  padding: 14px 70px;
-  background: #1334D6;
-  color: transparent;
-  z-index: 0;
-  border-radius: 0px;
-  white-space: nowrap
-  }
 
 .section {
   padding: 50px 0;
