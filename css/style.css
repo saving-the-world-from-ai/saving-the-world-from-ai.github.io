@@ -112,6 +112,14 @@ li {
     width: 100%; /* Make the image responsive */
     height: auto;
   }
+  .box {
+    margin-left: 25vw;
+    margin-top: -3vh;
+  }
+    .box2 {
+    margin-left: 25vw;
+    margin-top: -3vh;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -141,12 +149,14 @@ li {
     height: auto;
   }
   .box {
-    
     max-width: 95vw;
     width: 100%;
+    margin-left: 12vw;
+    margin-top: -4.5vh;
   }
   .box2 {
-
+    margin-left: 12vw;
+    margin-top: -4.5vh;
     max-width: 95vw;
     width: 100%;
   }
@@ -217,12 +227,14 @@ li {
   .box {
     max-width: 95vw;
     width: 100%;
-   
+    margin-left: 13vw;
+    margin-top: -5.3vh;
   }
   .box2 {
     max-width: 95vw;
     width: 100%;
-  
+    margin-left: 13vw;
+    margin-top: -5.3vh;
   }
 
   div.thanks-container {
@@ -286,8 +298,8 @@ li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 15.5vw;
-  margin-top: -4.9vh;
+  margin-left: 15.4vw;
+  margin-top: -5.0vh;
   max-width: 540px;
   width: 100%;
   padding: 14px 70px;
@@ -303,8 +315,8 @@ li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 15.5vw;
-  margin-top: -4.9vh;
+  margin-left: 15.4vw;
+  margin-top: -5.0vh;
   max-width: 540px;
   width: 100%;
   padding: 14px 70px;
