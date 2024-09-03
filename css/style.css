@@ -597,55 +597,6 @@ a {
   animation: bounce 2s infinite;
 }
 
-.circle-container {
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.circle-container .circle-1, .circle-2, .circle-3 {
-  object-fit: contain;
-
-}
-.circle-1 {
-    position: absolute;
-    top: 15%;
-    left: 30%;
-    background: #4776E6;
-    background: -webkit-linear-gradient(315deg, #ffffff 0%, #5899e2 74%); 
-    background: linear-gradient(315deg, #ffffff 0%, #5899e2 74%);   
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-}
-.circle-2{
-    position: absolute;
-    bottom: 5%;
-    right: 35%;
-    background: #bc4e9c;
-    background: -webkit-linear-gradient(315deg, #090947 0%, #5a585a 74%);
-    background: linear-gradient(315deg, #090947 0%, #5a585a 74%);
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-}
-.circle-3 {
-    position: absolute;
-    top: 30%;
-    right: 35%;
-    background-color: #FF3CAC;
-    background: #ff9966;
-    background: -webkit-linear-gradient(315deg, #2234ae 0%, #191714 74%);
-    background: linear-gradient(315deg, #2234ae 0%, #191714 74%);
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-}
-
 @keyframes bounce {
   0%,
   20%,
