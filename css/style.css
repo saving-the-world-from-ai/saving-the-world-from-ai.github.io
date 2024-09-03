@@ -113,12 +113,10 @@ li {
     height: auto;
   }
   .box {
-    margin-left: 25vw;
-    margin-top: -3vh;
+    display: none !important;
   }
-    .box2 {
-    margin-left: 25vw;
-    margin-top: -3vh;
+  .box2 {
+    display: none !important;
   }
 }
 
@@ -149,18 +147,11 @@ li {
     height: auto;
   }
   .box {
-    max-width: 95vw;
-    width: 100%;
-    margin-left: 12vw;
-    margin-top: -4.5vh;
+    display: none !important;
   }
   .box2 {
-    margin-left: 12vw;
-    margin-top: -4.5vh;
-    max-width: 95vw;
-    width: 100%;
+    display: none !important;
   }
-
 }
 
 @media only screen and (max-width: 576px) {
@@ -225,16 +216,10 @@ li {
     width: 100%;
   }
   .box {
-    max-width: 95vw;
-    width: 100%;
-    margin-left: 13vw;
-    margin-top: -5.3vh;
+    display: none !important;
   }
   .box2 {
-    max-width: 95vw;
-    width: 100%;
-    margin-left: 13vw;
-    margin-top: -5.3vh;
+    display: none !important;
   }
 
   div.thanks-container {
@@ -612,6 +597,14 @@ a {
   animation: bounce 2s infinite;
 }
 
+.circle-container {
+  
+}
+
+.circle-container .circle-1, .circle-2, .circle-3 {
+  object-fit: contain;
+
+}
 .circle-1 {
     position: absolute;
     top: 15%;
