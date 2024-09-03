@@ -140,12 +140,17 @@ li {
     width: 100%; /* Make the image responsive */
     height: auto;
   }
-    .box {
-    display: none !important;
+  .box {
+    
+    max-width: 95vw;
+    width: 100%;
   }
   .box2 {
-    display: none !important;
+
+    max-width: 95vw;
+    width: 100%;
   }
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -210,10 +215,14 @@ li {
     width: 100%;
   }
   .box {
-    display: none !important;
+    max-width: 95vw;
+    width: 100%;
+   
   }
   .box2 {
-    display: none !important;
+    max-width: 95vw;
+    width: 100%;
+  
   }
 
   div.thanks-container {
