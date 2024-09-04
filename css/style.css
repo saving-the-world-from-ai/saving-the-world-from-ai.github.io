@@ -380,7 +380,9 @@ li {
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   color: #f1f1f1;
   z-index: 1;
-  white-space: nowrap
+  white-space: nowrap;
+  font-weight: 300;
+  font-style: normal;
   }
   .headingImage {
     display: flex;
