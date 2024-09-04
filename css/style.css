@@ -162,10 +162,6 @@ li {
   margin-bottom: 10px;
 }
 
-.heading-section {
-  text-align: center;
-}
-
 .img-responsive {
   width: 50%;
   height: 100%;
@@ -252,6 +248,9 @@ li {
     width: 100%; /* Make the image responsive */
     height: auto;
   }
+  .heading-section {
+    text-align: center;
+}
 }
 
 @media only screen and (max-width: 576px) {
