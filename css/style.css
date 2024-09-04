@@ -173,27 +173,24 @@ li {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: auto;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #121212;
+  background-color: #121212; /* Adjust background color as needed */
 }
 
 .pdf-viewer {
-  display: flex;
   width: 100%;
-  max-width: 800px; /* Max width to prevent it from being too wide */
+  max-width: 1000px; /* Max width to prevent it from being too wide */
   height: 80vh; /* Set a height for the iframe to occupy most of the viewport */
   margin: 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for a nice effect */
 }
 
 .pdf-viewer iframe {
-  background-size: contain;
-  max-width: 100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
   border: none;
-  margin: 0;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -269,9 +266,17 @@ li {
     text-align: center;
   }
   .pdf-viewer {
-    height: 60vh; /* Set a height for the iframe to occupy most of the viewport */
+    max-width: 90vw; /* Set a height for the iframe to occupy most of the viewport */
     margin: 0;
+    height: auto;
   }
+
+  .pdf-viewer iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  margin: 0 auto;
+}
   .navbar-brand {
     max-width: 73vw;
   }
