@@ -259,12 +259,12 @@ li {
 }
 .pdf-container {
     width: 95vw;
-    height: auto; /* Make it responsive but not take full height on desktop */
+    height: 60%; /* Make it responsive but not take full height on desktop */
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: transparent; /* Optional: To show boundaries */
+    border: 1px solid transparent; /* Optional: To show boundaries */
 }
 
   .heading-section {
