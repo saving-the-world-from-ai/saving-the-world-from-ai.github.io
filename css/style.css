@@ -232,18 +232,18 @@ li {
   }
   .mobile-image {
     display: block;
-    padding-top: 49vh;
+    padding-top: 48vh;
     width: 100%; /* Make the image responsive */
     height: auto;
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .resume-image desktop-image {
+  .resume-image desktop {
   display: none;
 }
 
-.resume-image mobile-image {
+.resume-image mobile {
   display: block;
 }
 .pdf-container {
