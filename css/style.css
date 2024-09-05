@@ -239,11 +239,11 @@ li {
     padding-right: 10px;
   }
 
-  .resume-image desktop {
+  .resume-image-desktop {
   display: none;
 }
 
-.resume-image mobile {
+.resume-image-mobile {
   display: block;
 }
 .pdf-container {
