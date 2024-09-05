@@ -142,11 +142,11 @@ body {
   display: none;
 }
 
-.resume-image desktop-resume {
+.resume-image desktop-image {
   display: block;
 }
 
-.resume-image mobile-resume {
+.resume-image mobile-image {
   display: none;
 }
 
@@ -224,13 +224,18 @@ li {
   .heading-section {
     text-align: center;
   }
-    .resume-image desktop-resume {
-  display: none;
-}
+      .pdf-container {
+        width: 100%;
+        height: 70vh; /* Adjust the height for mobile */
+        padding: 0;
+    }
 
-.resume-image mobile-resume {
-  display: block;
-}
+    .pdf-viewer {
+        height: 100%;
+        width: 100%;
+        object-fit: contain; /* Ensure the PDF fits inside the view properly */
+    }
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -239,31 +244,36 @@ li {
   }
   .mobile-image {
     display: block;
-    padding-top: 48vh;
+    padding-top: 49vh;
     width: 100%; /* Make the image responsive */
     height: auto;
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .resume-image desktop-resume {
+  .resume-image desktop-image {
   display: none;
 }
 
-.resume-image mobile-resume {
+.resume-image mobile-image {
   display: block;
-  width: 100%;
-  height: 100%;
 }
 .pdf-container {
-    max-width: 95vw;
+    width: 95vw;
+    height: auto; /* Make it responsive but not take full height on desktop */
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: transparent;
+    border: 1px solid #ccc; /* Optional: To show boundaries */
 }
 
+.pdf-viewer {
+   width: 95vw;
+    height: 100vh;
+    border: none;
+    object-fit: contain;
+}
   .heading-section {
     text-align: center;
   }
@@ -316,7 +326,7 @@ li {
     width: 100%; /* Make the image responsive */
     height: auto;
   }
-  
+
   #navigation {
     padding: 10px 10px !important;
     z-index: 100;
@@ -696,10 +706,8 @@ a {
     border: 1px solid #ccc; /* Optional: To show boundaries */
 }
 
-.resume-image desktop-resume {
+.resume-image desktop-image {
     width: 100%;
     height: 100%;
     border: none;
 }
-
-
