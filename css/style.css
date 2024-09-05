@@ -251,7 +251,7 @@ li {
 }
 
 .resume-image mobile-image {
-  display: block;
+  display: flex;
   padding: 0px !important;
   margin: 0;
   width: 100%;
@@ -259,7 +259,6 @@ li {
 }
 .pdf-container {
     width: 95vw;
-    height: 60%; /* Make it responsive but not take full height on desktop */
     margin: 0 auto;
     display: flex;
     justify-content: center;
