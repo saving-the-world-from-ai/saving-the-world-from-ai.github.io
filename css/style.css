@@ -248,12 +248,11 @@ li {
 }
 .pdf-container {
     width: 95vw;
-    height: auto; /* Make it responsive but not take full height on desktop */
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #ccc; /* Optional: To show boundaries */
+    border: transparent;
 }
 
   .heading-section {
