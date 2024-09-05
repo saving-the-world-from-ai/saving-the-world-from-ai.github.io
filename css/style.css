@@ -242,21 +242,21 @@ li {
     padding-left: 10px;
     padding-right: 10px;
   }
-      .pdf-container {
-        width: 100%;
-        height: 70vh; /* Adjust the height for mobile */
-        padding: 0;
-    }
+.pdf-container {
+    width: 95vw;
+    height: auto; /* Make it responsive but not take full height on desktop */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc; /* Optional: To show boundaries */
+}
 
-    .pdf-viewer {
-        height: 100%;
-        width: 100%;
-        object-fit: contain; /* Ensure the PDF fits inside the view properly */
-    }
-  .pdf-viewer iframe {
-   width: 90vw;
-    height: auto;
-
+.pdf-viewer {
+   width: 95vw;
+    height: 100vh;
+    border: none;
+    object-fit: contain;
 }
   .heading-section {
     text-align: center;
@@ -680,11 +680,10 @@ a {
     transform: translateY(-15px);
   }
 }
-
 .pdf-container {
-    width: 95vw;
-    height: auto; /* Make it responsive but not take full height on desktop */
-    margin: 0 auto;
+    width: 80%;
+    height: 80vh; /* Make it responsive but not take full height on desktop */
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -692,10 +691,9 @@ a {
 }
 
 .pdf-viewer {
-   width: 95vw;
-    height: auto;
+    width: 100%;
+    height: 100%;
     border: none;
-    object-fit: contain;
 }
 
 
