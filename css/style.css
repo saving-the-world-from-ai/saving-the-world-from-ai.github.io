@@ -253,6 +253,11 @@ li {
         width: 100%;
         object-fit: contain; /* Ensure the PDF fits inside the view properly */
     }
+  .pdf-viewer iframe {
+   width: 90vw;
+    height: auto;
+
+}
   .heading-section {
     text-align: center;
   }
@@ -588,7 +593,7 @@ svg {
 }
 
 #navigation li a:hover {
-  text-decoration: underline solid #ffffff 2px;
+  text-decoration: underline solid #1334D6 2px;
 }
 
 div#navbarNav.collapse.navbar-collapse {
@@ -691,3 +696,5 @@ a {
     height: 100%;
     border: none;
 }
+
+
