@@ -142,11 +142,11 @@ body {
   display: none;
 }
 
-.resume-image desktop-image {
+.resume-image-desktop-image {
   display: block;
 }
 
-.resume-image mobile-image {
+.resume-image-mobile-image {
   display: none;
 }
 
@@ -246,11 +246,12 @@ li {
     padding-right: 10px;
   }
 
-  .resume-image desktop-image {
+  .resume-image-desktop-image {
     display: none;
    }
 
-  .resume-image.mobile-image {
+  .resume-image-mobile-image {
+    display: block;
     width: 100%; /* Set the image width to 100% of its container */
     max-width: 95vw; /* Set a maximum width for larger screens */
     height: auto; /* Maintain the aspect ratio */
@@ -694,7 +695,7 @@ a {
     border: 1px solid #ccc; /* Optional: To show boundaries */
 }
 
-.resume-image desktop-image {
+.resume-image-desktop-image {
     width: 100%;
     height: 100%;
     border: none;
