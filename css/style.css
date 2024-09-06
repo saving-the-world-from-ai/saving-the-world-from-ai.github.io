@@ -263,7 +263,7 @@ li {
   
   .mobile-image {
     display: block;
-    padding-top: 45vh;
+    padding-top: 40vh;
     width: 100%; /* Make the image responsive */
     height: auto;
     padding-left: 10px;
@@ -287,6 +287,7 @@ li {
     display:block;
     width: 100%; /* Make the image responsive */
     height: auto;
+    padding: 0px 10px;
   }
 
   .heading-section {
