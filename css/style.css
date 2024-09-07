@@ -681,12 +681,12 @@ a {
   text-align: center;
 }
 
-.titleMessage .arrow {
+.titleMessage .arrows {
   text-align: center;
   margin: 5% 0;
 }
 
-.arrow {
+.arrows {
   text-align: center;
   margin: 5% 0;
 }
@@ -725,19 +725,13 @@ a {
   -webkit-animation: arrow 2s infinite; 
 }
 
-@keyframes arrow {
+@keyframes arrows {
 0% {opacity:0}
 40% {opacity:1}
 80% {opacity:0}
 100% {opacity:0}
 }
 
-@-webkit-keyframes arrow {
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
-}
 
 .arrows path.a1 {
   animation-delay:-1s;
