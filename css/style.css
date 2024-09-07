@@ -164,7 +164,7 @@ body {
 .mobile-device {
   display:none;
 }
-
+/*******************************************END********************************************/
 p {
   font-size: 1rem;
   line-height: 1.6;
@@ -180,7 +180,7 @@ li {
   width: 50%;
   height: 100%;
 }
-
+/*******************************************     MOBILE @ 1024px  *******************************************/
 @media only screen and (max-width: 1024px) {
   .desktop-device {
     display:block;
@@ -216,7 +216,9 @@ li {
   }
 
 }
+/*******************************************END********************************************/
 
+/*******************************************    MOBILE @ 750px     ********************************************/
 @media only screen and (max-width: 750px) {
   .navbar-brand {
     max-width: 50vw;
@@ -255,7 +257,10 @@ li {
   }
 
 }
+/*******************************************END********************************************/
 
+
+/******************************************* MOBILE @ 576px ********************************************/
 @media only screen and (max-width: 576px) {
   .desktop-image {
     display: none;
@@ -374,6 +379,7 @@ li {
     max-width: 90vw;
   }
 }
+/*******************************************END********************************************/
 
 .flex-container {
   display: flex;
@@ -551,16 +557,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   stroke-dashoffset: -480;
 }
 
-svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  fill: none;
-  stroke: #fff;
-  stroke-dasharray: 150 480;
-  stroke-dashoffset: 150;
-  transition: .75s ease-in-out;
-}
+
 
 .contactButton {
   color: #ffffff;
