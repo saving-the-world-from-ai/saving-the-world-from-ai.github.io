@@ -438,7 +438,7 @@ li {
 }
 
 .statsSection h4 {
-  color: #333333;
+  color: #ffffff;
 }
 
 .contactSection {
@@ -447,8 +447,7 @@ li {
 }
 
 .statsSection {
-  background-color: #FFFFFF !important;
-  color: rgba(0, 0, 0, 0.87)
+  background-color: #121212 !important;
 }
 
 .skill {
@@ -497,34 +496,35 @@ li {
 
 .squareInnerContainer {
   align-items: center;
-  background: #FFFFFF;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  position: relative;
-  padding: 60px 15px 35px;
+  padding: 25px 35px;
   text-align: center;
-  border-radius: 9px;
+  border-radius: 10px;
+  background: rgba( 19, 52, 214, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .squareContent h2 {
   font-size: 3.5rem;
   margin-bottom: 10px;
   font-weight: 400;
-  color: rgba(0, 0, 0, 0.87);
+  color: #fff;
 }
 
 .squareContent h3 {
   font-size: 1rem;
   font-weight: 600;
   margin: 0;
-  color: rgba(0, 0, 0, 0.87);
 }
 
 .squareContent h4 {
-  color: rgba(0, 0, 0, 0.87);
+  color: #fff;
 }
 
 .counter {
-  color: rgba(0, 0, 0, 0.87);
+  color: #fff;
 }
 
 .squareIcon {
