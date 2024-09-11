@@ -628,7 +628,7 @@ svg {
 }
 
 #navigation li a {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.875);
   font-size: .875rem !important;
   font-weight: 500;
 }
