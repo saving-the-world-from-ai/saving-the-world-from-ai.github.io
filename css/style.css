@@ -531,22 +531,22 @@ canvas {
   color: #ffffff;
   font-size: 1.275rem;
   font-weight: 400;
-  padding: 0.60rem 1.95rem;
+  padding: 0.6rem 1.95rem;
   display: inline-block;
   margin-top: 20px;
   border-radius: 35px;
-  background: rgba( 19, 52, 214, 0.15 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 1px );
-  -webkit-backdrop-filter: blur( 1px );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(19, 52, 214, 0.15);
+  box-shadow: 0 4px 20px 0 #00ADD8;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   outline: none;
-  transition: .75s ease-in-out;
+  transition: 0.75s ease-in-out;
 }
 
 .downloadButton:hover {
-  transition: .75s ease-in-out;
-  background: #1334D6;
+  transition: 0.75s ease-in-out;
+  background: #00ADD8;
   color: #fff;
   text-decoration: none;
 }
@@ -555,26 +555,37 @@ canvas {
   stroke-dashoffset: -480;
 }
 
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 0.75s ease-in-out;
+}
+
 .contactButton {
   color: #ffffff;
   font-size: 1.275rem;
   font-weight: 400;
-  padding: 0.60rem 1.95rem;
+  padding: 0.6rem 1.95rem;
   display: inline-block;
   margin-top: 20px;
   border-radius: 35px;
-  background: rgba( 19, 52, 214, 0.15 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 1px );
-  -webkit-backdrop-filter: blur( 1px );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(19, 52, 214, 0.15);
+  box-shadow: 0 4px 20px 0 #00ADD8;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   outline: none;
-  transition: .75s ease-in-out;
+  transition: 0.75s ease-in-out;
 }
 
 .contactButton:hover {
-  transition: .75s ease-in-out;
-  background: #1334D6;
+  transition: 0.75s ease-in-out;
+  background: #00ADD8;
   color: #fff;
   text-decoration: none;
 }
@@ -582,6 +593,7 @@ canvas {
 .contactButton:hover svg {
   stroke-dashoffset: -480;
 }
+
 
 .section .heading {
   text-align: center;
