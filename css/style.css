@@ -361,10 +361,15 @@ li {
     border-radius: 0px !important;
     max-width: 100vw !important;
   }
-    .navbar-brand img {
-    height: 20px; /* Adjust logo size for mobile */
-    width: auto;
-    }
+  .navbar-brand img {
+      height: 8vw !important; /* Adjust the height of the logo */
+      width: auto;  /* Keeps the aspect ratio of the logo */
+      padding-top: 1px !important;
+      padding-bottom: 1px !important;
+  }
+  .navbar-brand {
+    margin: 0 0 !important;
+  }
   .fixedNav #navigation {
     position: fixed;
     top: 0;
