@@ -362,6 +362,7 @@ li {
     z-index: 100;
     border-radius: 0px !important;
     max-width: 100vw !important;
+    min-width: 100vw;
   }
   .fixedNav #navigation {
     position: fixed;
