@@ -251,6 +251,12 @@ li {
   .mobile-device {
     display:block;
   }
+    ul {
+     padding-left: 5px !important;
+  }
+    .heading-section {
+    text-align: center;
+  }
 
 }
 /*******************************************END********************************************/
@@ -303,8 +309,6 @@ li {
   li {
     margin-bottom: 10px;
     font-size: 1rem;
-    padding-left: 2px !important;
-    padding-right: 2px !important;
   }
   container.text-center.quote {
     padding-left: 10px;
@@ -373,6 +377,10 @@ li {
     width: 100%;
     max-width: 90vw;
   }
+  ul {
+     padding-left: 5px !important;
+  }
+
 }
 /*******************************************END********************************************/
 
