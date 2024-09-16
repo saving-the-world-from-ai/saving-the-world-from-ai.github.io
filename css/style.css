@@ -4,20 +4,6 @@ body {
   font-family: "Fira Sans", sans-serif !important;
 }
 
-.josefin-slab-font {
-  font-family: "Josefin Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.josefin-sans-font {
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .fira-sans-thin {
   font-family: "Fira Sans", sans-serif;
   font-weight: 100;
@@ -475,9 +461,7 @@ li {
   color: #f1f1f1;
   z-index: 1;
   white-space: nowrap;
-   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
-  
   }
   
 .headingImage {
