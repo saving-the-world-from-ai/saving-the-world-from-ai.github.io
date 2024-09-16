@@ -24,12 +24,6 @@ body {
   font-style: normal;
 }
 
-.abril-fatface-regular {
-  font-family: "Abril Fatface", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .fira-sans-thin {
   font-family: "Fira Sans", sans-serif;
   font-weight: 100;
@@ -479,7 +473,7 @@ li {
   max-width: 540px;
   padding: 14px 70px;
   background: rgba( 18, 18, 18, 0.25 );
-  box-shadow: 0 8px 38px 0 rgba( 31, 38, 135, 0.37 );
+  box-shadow: 0 10px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur( 7px );
   -webkit-backdrop-filter: blur( 7px );
   border-radius: 0px;
@@ -487,7 +481,9 @@ li {
   color: #f1f1f1;
   z-index: 1;
   white-space: nowrap;
-  font-family: "Abril Fatface", serif;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  
   }
   
 .headingImage {
