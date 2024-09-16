@@ -4,6 +4,38 @@ body {
   font-family: "Fira Sans", sans-serif !important;
 }
 
+.josefin-slab-font {
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.josefin-sans-font {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .fira-sans-thin {
   font-family: "Fira Sans", sans-serif;
   font-weight: 100;
@@ -688,7 +720,9 @@ svg {
 #navigation li a {
   color: #ffffff;
   font-size: .875rem !important;
-  font-weight: 500;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 #navigation li a:hover {
