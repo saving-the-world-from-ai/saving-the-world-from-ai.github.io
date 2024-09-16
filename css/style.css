@@ -495,8 +495,10 @@ li {
   white-space: nowrap;
   font-weight: 400;
   font-style: normal;
+  font-family: "Lobster", sans-serif;
   }
-  .headingImage {
+  
+.headingImage {
     display: flex;
     justify-content: center;
     align-items: center;
