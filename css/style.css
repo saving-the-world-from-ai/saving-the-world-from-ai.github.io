@@ -275,9 +275,6 @@ li {
   ul {
     padding-left: 10px;
   }
-    .heading-section {
-    text-align: center;
-  }
   #navigation {
     padding: 10px 10px !important;
     z-index: 100;
@@ -301,9 +298,6 @@ li {
     width: auto;  /* Keeps the aspect ratio of the logo */
     padding-top: 1px !important;
     padding-bottom: 1px !important;
-  }
-  .heading-section {
-    text-align: center;
   }
 }
 /*******************************************END********************************************/
@@ -658,6 +652,12 @@ svg {
   text-align: center;
   width: 100%;
 }
+
+  .heading-section {
+    color: #ffffff !important; 
+    font-weight: 300; 
+    font-style: normal;
+  }
 
 /********************************************  NAVBAR  ********************************/
 #navigation {
