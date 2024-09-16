@@ -142,7 +142,6 @@ body {
   display: none;
 }
 
-
 /*******************************************PDF Viewer********************************************/
 .pdf-container {
     width: 80%;
@@ -455,7 +454,6 @@ li {
   color: #f1f1f1;
   z-index: 1;
   white-space: nowrap;
-  text-transform: uppercase;
   }
   
 .headingImage {
