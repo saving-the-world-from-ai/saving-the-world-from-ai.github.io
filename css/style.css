@@ -1,9 +1,16 @@
-body {
-  color: #ffffff;
-  background-color: #121212 !important;
-  font-family: "Fira Sans", sans-serif !important;
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
+body {
+  background-color: rgb(51 51 51) !important;
+  font-family: "Fira Sans", sans-serif !important;
+  padding-left: 48px;
+  padding-right: 48px;
+}
 .fira-sans-thin {
   font-family: "Fira Sans", sans-serif;
   font-weight: 100;
@@ -229,7 +236,6 @@ li {
     border-radius: 0px !important;
     max-width: 100vw !important;
     min-width: 100vw !important;
-    padding-right: 10px;
   }
 }
 /*******************************************END********************************************/
@@ -253,8 +259,11 @@ li {
     padding-left: 10px;
     padding-right: 10px;
   }
+  .dropdown-menu {
+    background-color: black;
+}
   div.thanks-container {
-    max-width: 65vw; /* Maximum width of the image container */
+    max-width: 40vw; /* Maximum width of the image container */
     height: 100%;
   }
   .thanks-container img {
@@ -265,11 +274,11 @@ li {
     text-align: center;
   }
   .desktop-device {
-    display:none;
+    display:block;
   }
 
   .mobile-device {
-    display:block;
+    display:none;
   }
   ul {
     padding-left: 10px;
@@ -304,6 +313,12 @@ li {
 
 /******************************************* MOBILE @ 576px ********************************************/
 @media only screen and (max-width: 576px) {
+  body {
+    background-color: rgb(51 51 51) !important;
+    font-family: "Fira Sans", sans-serif !important;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
   .landing-image {
     position: relative;
     top: 50%;
@@ -375,6 +390,7 @@ li {
   .text-box {
     max-width: 95vw;
     width: 100%;
+    border-radius: 30px !important;
   }
   .text-box2 {
     max-width: 95vw;
@@ -421,7 +437,7 @@ li {
     width: 100%;
     max-width: 90vw;
   }
-    ul {
+  ul {
     padding-left: 10px;
   }
   .navbar-brand img {
@@ -444,18 +460,20 @@ li {
   margin: 0 auto;
   width: 100%;
   max-width: 540px;
-  padding: 14px 70px;
+  padding: 12px 50px;
   background: rgba( 18, 18, 18, 0.25 );
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur( 7px );
   -webkit-backdrop-filter: blur( 7px );
   border-radius: 0px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  color: #f1f1f1;
-  z-index: 1;
+  color: #ffffff;
+  z-index: 5;
   white-space: nowrap;
+  font-size: 1.75rem;
+  font-weight: 400;
   }
-  
+
 .headingImage {
     display: flex;
     justify-content: center;
@@ -466,9 +484,6 @@ li {
     max-width: 540px;
   }
 
-.section {
-  padding: 40px 0;
-}
 
 .aboutImage {
   max-width: 100%;
@@ -479,8 +494,27 @@ li {
   font-size: large;
 }
 
+.section {
+  padding: 40px 0;
+  background-color: rgb(12 12 12);
+  color:#ffffff;
+  border-radius: 30px;
+}
+
+#message {
+  margin: 0 auto;
+}
+
+#gap {
+  background-color: rgb(51 51 51);
+  height: 16px;
+  max-height: 16px;
+  min-height: 16px;
+}
+
+
 .skillsSection.section {
-  background-color: #121212;
+  background-color: rgb(12 12 12);
   color: #ffffff;
 }
 
@@ -489,14 +523,30 @@ li {
 }
 
 .contactSection {
-  background-color: #121212 !important;
+  background-color: rgb(12 12 12) !important;
   color: #ffffff !important;
 }
 
 .statsSection {
-  background-color: #121212 !important;
+  background-color: rgb(12 12 12) !important;
+  margin: 0 auto;
 }
 
+#resume {
+  background-color: rgb(12 12 12) !important;
+  border-radius: 30px;
+
+}
+
+.resume-section {
+  border-radius: 30px;
+  padding: 30px 30px !important;
+  align-items: center;
+  background:rgb(12 12 12) !important;
+  color:#ffffff !important;
+  margin: 0 auto;
+  overflow: auto;
+}
 .skill {
   text-align: center;
 }
@@ -651,31 +701,35 @@ svg {
   width: 100%;
 }
 
-  .heading-section {
-    color: #ffffff !important; 
-    font-weight: 300; 
-    font-style: normal;
-  }
+.heading-section {
+  color: #ffffff !important;
+  font-weight: 300;
+  font-style: normal;
+}
 
 /********************************************  NAVBAR  ********************************/
 #navigation {
-  margin-top: 1%;
-  margin-left: 25%;
-  margin-right: 25%;
-  padding-right: 20px;
-  padding-left: 10px;
-  z-index: 100;
+  margin-top: 12px;
+  padding-right: 30px;
+  padding-left: 15px;
+  z-index: 50;
   width: 100%;
   max-width: 50vw;
-  border-radius: 45px;
+  border-radius: 9999px;
   background: rgba(39, 39, 39, 0.1);
   backdrop-filter: blur(10px);
   /* fallback for old browsers */
   -webkit-backdrop-filter: blur(10px);
   border: 0.25px solid rgba(255, 255, 255, 0.2);
-  padding-top: 3px !important;
-  padding-bottom: 3px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
   min-width: 750px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 55px;
+  min-height: 55px;
+  max-height: 55px;
 }
 
 #navigation li {
@@ -687,7 +741,7 @@ svg {
   color: #ffffff;
   font-size: .875rem !important;
   font-family: "Fira Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -705,15 +759,16 @@ div#navbarNav.collapse.navbar-collapse {
 }
 
 .navbar-brand img {
-    height: 35px; /* Adjust the height of the logo */
+    height: 30px; /* Adjust the height of the logo */
     width: auto;  /* Keeps the aspect ratio of the logo */
-    padding-top: 3px !important;
-    padding-bottom: 3px !important;
+
+
 }
 
 .img-responsive {
   width: 100%;
   height: 100%;
+
 }
 /********************************************  END ********************************/
 .loader {
@@ -757,7 +812,7 @@ a {
   position: absolute;
   width: 100%;
   height: auto;
-  bottom: 5%;
+  bottom: 20%;
   z-index: 5;
   text-align: center;
 }
@@ -767,26 +822,44 @@ a {
   margin: 5% 0;
 }
 
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
-@keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
-  } /* Closing the first block */
+.arrow span {
+  display: block;
+  width: 1.5vw;
+  height: 1.5vw;
+  border-bottom: 5px solid #00ADD8;
+  border-right: 5px solid #00ADD8;
+  transform: rotate(45deg);
+  margin-bottom: 20px;
+  margin: -10px;
+  animation: animate 2s infinite;
+}
 
-  40% {
-    transform: translateY(-30px);
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
   }
-
-  60% {
-    transform: translateY(-15px);
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px);
   }
 }
