@@ -1,8 +1,11 @@
-*, ::after, ::before {
+*,
+::after,
+::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+  color: rgb(255,255,255,1);
 }
 
 body {
@@ -10,6 +13,24 @@ body {
   font-family: "Fira Sans", sans-serif !important;
   padding-left: 48px;
   padding-right: 48px;
+}
+
+.ubuntu-sans-fonts {
+  font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-fonts {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .fira-sans-thin {
@@ -124,14 +145,11 @@ body {
   margin: 0 auto;
 }
 
-
 .landing-image-container {
   position: relative;
   width: 100%;
   height: 100vh; /* Full viewport height */
   overflow: hidden;
-  background: #121212;
-  z-index: 50;
 }
 
 /* Common styles for all landing images */
@@ -142,14 +160,15 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   margin: 0 auto;
+  z-index: 50;
 }
 
 /* Default to desktop image */
 .desktop-image {
   display: block;
-  width: 80%;
+  width: 70%;
   height: auto;
-
+  z-index: 50;
 }
 
 .mobile-image {
@@ -158,39 +177,42 @@ body {
 
 /*******************************************PDF Viewer********************************************/
 .pdf-container {
-    width: 80%;
-    height: 80vh; /* Make it responsive but not take full height on desktop */
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #ccc; /* Optional: To show boundaries */
+  width: 80%;
+  height: 80vh; /* Make it responsive but not take full height on desktop */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc; /* Optional: To show boundaries */
 }
 
 .desktop-device {
-    display:block;
-    width: 100%;
-    height: 100%;
-    border: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 .mobile-device {
-  display:none;
+  display: none;
 }
 /*******************************************END********************************************/
 p {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 20px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 li {
   font-size: 1rem;
   margin-bottom: 10px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
+ul {
+  padding-left: 15px;
+}
 /*******************************************     MOBILE @ 1024px  *******************************************/
 @media only screen and (max-width: 1025px) {
   .landing-image {
@@ -201,11 +223,11 @@ li {
     transform: translateY(-50%);
   }
   .desktop-device {
-    display:block;
+    display: block;
   }
 
   .mobile-device {
-    display:none;
+    display: none;
   }
 
   .desktop-image {
@@ -223,7 +245,7 @@ li {
     margin-right: 15px;
   }
   div.thanks-container {
-    max-width: 65vw; /* Maximum width of the image container */
+    max-width: 35vw; /* Maximum width of the image container */
     height: 100%;
   }
   .thanks-container img {
@@ -231,7 +253,6 @@ li {
     height: auto;
   }
   #navigation {
-
     z-index: 100;
     width: 100% !important;
     background: rgba(39, 39, 39, 0.1);
@@ -283,11 +304,11 @@ li {
     text-align: center;
   }
   .desktop-device {
-    display:block;
+    display: block;
   }
 
   .mobile-device {
-    display:none;
+    display: none;
   }
   ul {
     padding-left: 10px;
@@ -311,13 +332,12 @@ li {
   }
   .navbar-brand img {
     height: 8vw; /* Adjust the height of the logo */
-    width: auto;  /* Keeps the aspect ratio of the logo */
+    width: auto; /* Keeps the aspect ratio of the logo */
     padding-top: 1px !important;
     padding-bottom: 1px !important;
   }
 }
 /*******************************************END********************************************/
-
 
 /******************************************* MOBILE @ 576px ********************************************/
 @media only screen and (max-width: 576px) {
@@ -347,7 +367,7 @@ li {
     padding-right: 10px;
   }
 
-   #navbar .navbar.navbar-expand-lg.navbar-dark {
+  #navbar .navbar.navbar-expand-lg.navbar-dark {
     align-items: center;
     justify-content: center;
     margin: auto 0;
@@ -361,14 +381,14 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: .1px solid transparent; /* Optional: To show boundaries */
+    border: 0.1px solid transparent; /* Optional: To show boundaries */
   }
   .desktop-device {
-    display:none;
+    display: none;
   }
 
   .mobile-device {
-    display:block;
+    display: block;
     width: 100%; /* Make the image responsive */
     height: auto;
     padding: 0px 10px;
@@ -433,15 +453,13 @@ li {
     border-radius: 0px !important;
     max-width: 100vw !important;
     min-width: 100vw !important;
-
   }
 
   .navbar-toggler ml-auto {
     margin: 0 auto;
-
   }
   .navbar-collapse collapse show {
-      background-color: #121212;
+    background-color: #121212;
   }
 
   .fixedNav #navigation {
@@ -482,29 +500,29 @@ li {
   width: 100%;
   max-width: 540px;
   padding: 12px 50px;
-  background: rgba( 18, 18, 18, 0.25 );
+  background: rgba(18, 18, 18, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur( 7px );
-  -webkit-backdrop-filter: blur( 7px );
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 0px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
   color: #ffffff;
-  z-index: 5;
+  z-index: 20;
   white-space: nowrap;
   font-size: 1.75rem;
-  font-weight: 400;
-  }
+  font-weight: 500;
+  font-family: "Ubuntu Sans", sans-serif;
+}
 
 .headingImage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 540px;
-  }
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 540px;
+}
 
 .aboutImage {
   max-width: 100%;
@@ -515,8 +533,6 @@ li {
   font-size: large;
 }
 
-
-
 /***************************************************    Sections       *****************************************/
 
 #message {
@@ -526,11 +542,10 @@ li {
 .section {
   padding: 40px 0;
   background-color: rgb(12 12 12);
-  color:#ffffff;
+  color: #ffffff;
   border-radius: 30px;
   border: solid 1px rgb(51 51 51);
 }
-
 
 #gap {
   background-color: rgb(51 51 51);
@@ -538,7 +553,6 @@ li {
   max-height: 16px;
   min-height: 16px;
 }
-
 
 .skillsSection.section {
   background-color: rgb(12 12 12);
@@ -571,8 +585,106 @@ li {
   bottom: 0;
 }
 
-#nvidiacolor {
-  color: #76BB02;
+#slides {
+  position: relative;
+  overflow: hidden; /* Ensures the image is contained in the section */
+  display: flex; /* For layout purposes, adjust if necessary */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  border: solid 1px rgb(51 51 51);
+}
+
+#about {
+  position: relative;
+  overflow: hidden; /* Ensures the image is contained in the section */
+  display: flex; /* For layout purposes, adjust if necessary */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  border: solid 1px rgb(51 51 51);
+}
+
+#res1, #res2, #res3, #res4 {
+  position: relative;
+  overflow: hidden; /* Ensures the image is contained in the section */
+  display: flex; /* For layout purposes, adjust if necessary */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  border: solid 1px rgb(51 51 51);
+}
+
+.about-container {
+  mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  z-index: 1;
+  pointer-events: none; /* Prevent interactions with the image */
+  position: absolute; /* So it can stretch behind everything */
+  top: 0;
+  right: 80%;
+  width: 75%; /* Make the image span the entire width */
+  height: 100%; /* Make the image span the entire height */
+  object-fit: cover; /* Ensures the image covers the section without distortion */
+  object-position: center;
+}
+
+.about-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.resume-section1 {
+  mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  z-index: 1;
+  pointer-events: none; /* Prevent interactions with the image */
+  position: absolute; /* So it can stretch behind everything */
+  top: 0;
+  right: 75%;
+  width: 50%; /* Make the image span the entire width */
+  height: 100%; /* Make the image span the entire height */
+  object-fit: cover; /* Ensures the image covers the section without distortion */
+  object-position: center;
+}
+
+.resume-section2 {
+  mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  z-index: 1;
+  pointer-events: none; /* Prevent interactions with the image */
+  position: absolute; /* So it can stretch behind everything */
+  top: 0;
+  right: 75%;
+  width: 40%; /* Make the image span the entire width */
+  height: 100%; /* Make the image span the entire height */
+  object-fit: cover; /* Ensures the image covers the section without distortion */
+  object-position: center;
+}
+
+.resume-section3 {
+  mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  z-index: 1;
+  pointer-events: none; /* Prevent interactions with the image */
+  position: absolute; /* So it can stretch behind everything */
+  top: 0;
+  right: 70%;
+  width: 100%; /* Make the image span the entire width */
+  height: 100%; /* Make the image span the entire height */
+  object-fit: cover; /* Ensures the image covers the section without distortion */
+  object-position: center;
+}
+
+.resume-section4 {
+  mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  z-index: 1;
+  pointer-events: none; /* Prevent interactions with the image */
+  position: absolute; /* So it can stretch behind everything */
+  top: 0;
+  right: 70%;
+  width: 70%; /* Make the image span the entire width */
+  height: 100%; /* Make the image span the entire height */
+  object-fit: cover; /* Ensures the image covers the section without distortion */
+  object-position: center;
+}
+
+.resume-section1, .resume-section2, .resume-section3, .resume-section4 img {
+  max-width: 100%;
+  height: auto;
 }
 
 #message {
@@ -605,9 +717,9 @@ li {
   border: solid 1px rgb(51 51 51);
 }
 
-#numbers .section .statsSection container text-center{
+#numbers .section .statsSection container text-center {
   position: relative; /* Ensure the content is above the background image */
-  z-index: 20; /* Content is on top */
+  z-index: 50; /* Content is on top */
 }
 
 #resume {
@@ -620,10 +732,21 @@ li {
   align-items: center; /* Center content vertically */
   justify-content: center; /* Center content horizontally */
   border: solid 1px rgb(51 51 51);
-
 }
 
-.resume container text-center{
+#thanks {
+  background-color: rgb(12 12 12) !important;
+  border-radius: 30px;
+  /*object-fit: contain !important;*/
+  position: relative;
+  overflow: hidden; /* Ensures the image is contained in the section */
+
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  border: solid 1px rgb(51 51 51);
+}
+
+.resume container text-center {
   position: relative; /* Ensure the content is above the background image */
   z-index: 20; /* Content is on top */
 }
@@ -637,15 +760,15 @@ li {
 }
 
 .main-container {
-  mask-image: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0));
-  z-index: 2;
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  z-index: 1;
   pointer-events: none;
   position: absolute;
-  top: 0;
-  left: 50%;
-  width: 100%;
+  top: 60%;
+  left: 0;
+  width: 80%;
   height: 100%;
-  object-fit: cover ;
+  object-fit: cover;
   object-position: center;
 }
 
@@ -654,53 +777,55 @@ li {
   height: auto;
 }
 
-.message-container {
-  mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+.numbers-container {
+  mask-image: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0));
   z-index: 1;
-  pointer-events: none; /* Prevent interactions with the image */
-  position: absolute; /* So it can stretch behind everything */
+  pointer-events: none;
+  position: absolute;
   top: 0;
-  right: 70%;
-  width: 40%; /* Make the image span the entire width */
-  height: 100%; /* Make the image span the entire height */
-  object-fit: cover ; /* Ensures the image covers the section without distortion */
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
   object-position: center;
 }
 
-.message-container img {
+.numbers-container img {
   max-width: 100%;
   height: auto;
- }
+}
 
 .background-container {
   mask-image: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0));
   z-index: 1;
-  pointer-events: none; /* Prevent interactions with the image */
-  position: absolute; /* So it can stretch behind everything */
+  pointer-events: none;
+  position: absolute;
   top: 0;
-  left: 55%;
-  width: 50%; /* Make the image span the entire width */
-  height: 100%; /* Make the image span the entire height */
-  object-fit: cover ; /* Ensures the image covers the section without distortion */
+  left: 50%;
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
   object-position: center;
 }
 
 .background-container img {
   max-width: 100%;
   height: auto;
+  z-index: 1;
 }
 
 .resume-image-container {
-  mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0));
   z-index: 1;
   pointer-events: none;
   position: absolute;
   top: 0;
-  right: 50%;
+  left: 40%;
   width: 100%;
   height: 100%;
-  object-fit: cover ;
+  object-fit: cover;
   object-position: center;
+
 }
 
 .resume-image-container img {
@@ -708,17 +833,45 @@ li {
   height: auto;
 }
 
-.experience-image-container {
+#skills {
+  position: relative;
+  overflow: hidden; /* Ensures the image is contained in the section */
+  display: flex; /* For layout purposes, adjust if necessary */
+  border: solid 1px rgb(51 51 51);
+}
+
+.skills-container {
   mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
   z-index: 1;
   pointer-events: none; /* Prevent interactions with the image */
   position: absolute; /* So it can stretch behind everything */
   top: 0;
-  right:50%;
-  width: 50%; /* Make the image span the entire width */
+  right: 60%;
+  width: 60%; /* Make the image span the entire width */
   height: 100%; /* Make the image span the entire height */
-  object-fit: cover ; /* Ensures the image covers the section without distortion */
+  object-fit: cover; /* Ensures the image covers the section without distortion */
   object-position: center;
+}
+
+.skills-container img {
+  max-width: 100%;
+  height: auto;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.experience-image-container {
+  mask-image: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  z-index: 1;
+  pointer-events: none; /* Prevent interactions with the image */
+  position: absolute; /* So it can stretch behind everything */
+  top: 0;
+  left: 60%;
+  width: 40%; /* Make the image span the entire width */
+  height: 100%; /* Make the image span the entire height */
+  object-fit: cover; /* Ensures the image covers the section without distortion */
+  object-position: center;
+  margin-bottom: 80%
 }
 
 .experience-image-container img {
@@ -727,21 +880,23 @@ li {
 }
 
 .contact-container {
-  mask-image: linear-gradient(to left, rgb(0, 0, 0) 40%, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
   z-index: 1;
   pointer-events: none; /* Prevent interactions with the image */
   position: absolute; /* So it can stretch behind everything */
   top: 0;
-  left: 65%;
-  width: 35%; /* Make the image span the entire width */
+  right: 65%;
+  width: 40%; /* Make the image span the entire width */
   height: 100%; /* Make the image span the entire height */
-  object-fit: cover ; /* Ensures the image covers the section without distortion */
+  object-fit: cover; /* Ensures the image covers the section without distortion */
   object-position: center;
 }
 
 .contact-container img {
   max-width: 100%;
   height: auto;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .resume-section {
@@ -751,13 +906,12 @@ li {
   align-items: center; /* Center content vertically */
   justify-content: center; /* Center content horizontally */
   border: solid 1px rgb(51 51 51);
-  color:#ffffff !important;
+  color: #ffffff !important;
   padding-top: 20px;
   padding-bottom: 20px;
   align-items: center; /* Center content vertically */
   justify-content: center; /* Center content horizontally */
 }
-
 
 /* Headings */
 .section .heading {
@@ -821,11 +975,11 @@ canvas {
   padding: 25px 35px;
   text-align: center;
   border-radius: 10px;
-  background: rgba( 19, 52, 214, 0.1 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 10px );
-  -webkit-backdrop-filter: blur( 10px );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(19, 52, 214, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .squareContent h2 {
@@ -863,21 +1017,21 @@ canvas {
   display: inline-block;
   margin-top: 20px;
   border-radius: 35px;
-  background: rgba(19, 52, 214, 0.15);
-  box-shadow: 0 5px 12px 0 #76BB02;
+  background: rgba( 46, 39, 83, 0.25 );
+  box-shadow: 0 5px 12px 0 #76bb02;
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   outline: none;
-  transition: 0.75s ease-in-out;
+  transition: 1.75s ease-in-out;
 }
 
 .downloadButton:hover {
-  transition: 0.75s ease-in-out;
-  background: #76BB02;
-  color: #000;
+  transition: .75s ease-in-out;
+  background: #622c8a;
   text-decoration: none;
-  font-weight: 600;
+  color:#ffffff;
+  box-shadow: 0 2px 2px 0 #76bb02;
 }
 
 .downloadButton:hover svg {
@@ -892,7 +1046,7 @@ svg {
   stroke: #fff;
   stroke-dasharray: 150 480;
   stroke-dashoffset: 150;
-  transition: 0.75s ease-in-out;
+  transition: 1.75s ease-in-out;
 }
 
 .contactButton {
@@ -903,57 +1057,63 @@ svg {
   display: inline-block;
   margin-top: 20px;
   border-radius: 35px;
-  background: rgba(19, 52, 214, 0.15);
-  box-shadow: 0 5px 12px 0 #76BB02;
+  background: rgba( 46, 39, 83, 0.25 );
+  box-shadow: 0 5px 12px 0 #76bb02;
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   outline: none;
-  transition: 0.75s ease-in-out;
+  transition: 1.75s ease-in-out;
 }
 
 .contactButton:hover {
-  transition: 0.75s ease-in-out;
-  background: #76BB02;
-  color: #000;
-  font-weight: 600;
+  transition: .75s ease-in-out;
+  background: #622c8a;
   text-decoration: none;
+  color:#ffffff;
+  box-shadow: 0 2px 2px 0 #76bb02;
 }
 
 .contactButton:hover svg {
   stroke-dashoffset: -480;
 }
-/********************************************* End Buttons   ********************************/
+/*********************************************    End Buttons     ********************************/
 
 .joemendezhughes {
-border: 1px solid #622C8A;
-padding: 20px 20px;
-background-color: rgb(12 12 12);
-justify-content: center;
-align-items: center;
-text-align: center;
-margin: 0 auto;
-box-shadow: 0 2px 10px 0 #622C8A;
+  border: 1px solid #622c8a;
+  padding: 15px 25px;
+  background: #121212;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0 2px 10px 0 #622c8a;
+  font-family: "Ubuntu Sans", sans-serif;
+  font-size: 1.075rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color:  rgba( 255, 255, 255, 1 );;
 }
 
-
-/********************************************     NAVBAR          ********************************/
+/********************************************        NAVBAR          ********************************/
 #navigation {
-  margin-top: .75%;
+  margin-top: 0.75%;
+  margin-bottom: 0.75%;
   z-index: 1000;
   width: 100%;
   max-width: 50vw;
   border-radius: 9999px;
   background: rgba(39, 39, 39, 0.1);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(8px);
   /* fallback for old browsers */
-  -webkit-backdrop-filter: blur(10px);
-  border: 0.25px solid rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(8px);
+  border: 0.25px solid rgba(255, 255, 255, 0.25);
   min-width: 750px;
   text-align: center;
   left: 50%;
   transform: translateX(-50%);
   align-items: center;
+  white-space: nowrap;
 }
 
 #navigation li {
@@ -963,11 +1123,11 @@ box-shadow: 0 2px 10px 0 #622C8A;
 
 #navigation li a {
   color: #ffffff;
-  font-size: .875rem !important;
+  font-size: 0.875rem !important;
 }
 
 #navigation li a:hover {
-  text-decoration: underline solid #76BB02 2px;
+  text-decoration: underline solid 2px #76bb02;
 }
 
 div#navbarNav.collapse.navbar-collapse {
@@ -980,9 +1140,11 @@ div#navbarNav.collapse.navbar-collapse {
 }
 
 .navbar-brand img {
-    height: 35px; /* Adjust the height of the logo */
-    width: auto;  /* Keeps the aspect ratio of the logo */
-
+  height: 35px; /* Adjust the height of the logo */
+  width: auto; /* Keeps the aspect ratio of the logo */
+}
+.navbar-brand {
+  align-items: center;
 }
 
 .img-responsive {
@@ -1003,7 +1165,8 @@ div#navbarNav.collapse.navbar-collapse {
 .loader .inner {
   width: 100%;
   height: 100%;
-  background: url(../img/Sphere_rotating_transparency.gif) center center no-repeat;
+  background: url(../img/Sphere_rotating_transparency.gif) center center
+    no-repeat;
   background-color: #000000;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
@@ -1053,8 +1216,8 @@ a {
   display: block;
   width: 1.5vw;
   height: 1.5vw;
-  border-bottom: 5px solid #76BB02;
-  border-right: 5px solid #76BB02;
+  border-bottom: 5px solid #76bb02;
+  border-right: 5px solid #76bb02;
   transform: rotate(45deg);
   margin-bottom: 20px;
   margin: -10px;
@@ -1071,14 +1234,14 @@ a {
 
 @keyframes animate {
   0% {
-      opacity: 0;
-      transform: rotate(45deg) translate(-20px, -20px);
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
   }
   50% {
-      opacity: 1;
+    opacity: 1;
   }
   100% {
-      opacity: 0;
-      transform: rotate(45deg) translate(20px, 20px);
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
   }
 }
