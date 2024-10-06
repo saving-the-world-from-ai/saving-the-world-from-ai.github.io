@@ -1,18 +1,22 @@
-Welcome to the official website of Joe Mendez-Hughes, our hero on a mission to save the world from A.I.!
+Joe Mendez-Hughes is a man born into the brilliance and upheaval of a modern dream—a dream not of
+                         glittering parties and the allure of music from a different time, but one spun from the iridescent glow of computer screens,
+                         coded language, and the faint hum of the future. Seven years of dedication have fashioned him into an AI Engineer,
+                         a craftsman of the intangible, charting the luminous pathways of NLP, LLMs, and the unpredictable musings of generative AI.
 
-With a wealth of experience as a veteran A.I. engineer, Joe is here to shield businesses and organizations from the catastrophic consequences of A.I. gone wrong.
-			
-In today's data-driven world, the rapid expansion of information presents monumental challenges—ranging from corrupted datasets to ineffective pipelines and dangerously flawed A.I. models.
-This is where Joe steps in, armed with his unrivaled skills and dedication.
 
-Joe is not just any A.I. Engineer—he is a master of his craft, specializing in constructing bulletproof data architectures and engineering hyper-efficient machine learning pipelines.
-Joe leverages his extensive toolkit to tame the most complex AI landscapes and is proficient in a wide range of technologies such as Python, Pandas, PyTorch, LLMs, NLP, and Generative AI.</p>
- 
-Yet, Joe’s prowess extends beyond technical mastery. He is a visionary problem-solver, driven by a passion for tackling monumental A.I. challenges. His precision and unwavering 
-commitment ensure that your AI models are not just secure, but transformed into a powerful weapon of good, avoiding the pitfalls of A.I. catastrophe.</p>
+Joe stands poised like a solitary figure on a green light-dappled dock, gazing out at the vast expanse of possibility
+                         that shimmers on the surface of technological waters. His work with machine learning is not simply a pursuit of efficiency; it’s
+                         a pursuit of a better understanding—a gilded hope that somewhere, amidst the algorithms and models, there exists the potential
+                         to bridge the gap between human hearts and synthetic minds. He is forever chasing a future that feels just out of reach, filled with
+                         a sense of wonder and tinged with the melancholy of the great, intricate unknown.
 
-When A.I. goes awry, you need a hero who can navigate the storm and restore balance. Joe is that hero, with a proven record of steering machine learning and A.I. projects to success,
-rescuing businesses (and the world) from the edge of catastrophe. Trust Joe to architect your A.I. solutions or refine your processes, and watch as your business ascends to new heights of success.</p>
 
-Delve into his website to uncover Joe’s extensive expertise, explore his past triumphs, and discover how he can fortify your business against any machine learning or A.I. challenge.
-Don’t let A.I. doom catch you off guard—join forces with Joe Mendez-Hughes and secure your A.I. destiny today!						
+ So we beat on, our curiosity alive and eager, drawn forward by the promise of something new—something glimmering beyond the horizon
+                         of our understanding. Here, on this site of Joe Mendez-Hughes, you are invited to wander and gaze at the modern wonder: a place
+                         where machines are taught to think and where language is revived in electric form.
+
+Take a look around, dear visitor, and discover the works of an engineer who stands at the intersection of invention and imagination,
+                        shaping the future from the elusive dreams of the present. It’s a journey worth making, not unlike a light beckoning across the water,
+                        full of promise and mystery. Step inside and see what you might find.
+
+-Joe Mendez-Hughes
