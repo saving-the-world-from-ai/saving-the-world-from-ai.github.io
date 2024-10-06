@@ -18,5 +18,3 @@ Joe stands poised like a solitary figure on a green light-dappled dock, gazing o
 Take a look around, dear visitor, and discover the works of an engineer who stands at the intersection of invention and imagination,
                         shaping the future from the elusive dreams of the present. It’s a journey worth making, not unlike a light beckoning across the water,
                         full of promise and mystery. Step inside and see what you might find.
-
--Joe Mendez-Hughes
