@@ -986,21 +986,29 @@ canvas {
 }
 
 /*********************************************      Buttons       ********************************/
+.contactButton,
+.downloadButton i {
+    margin: 0 auto;
+    padding-left: 1px;
+}
+
+.downloadButton i {
+    padding-left: 2px;
+}
+
 .downloadButton {
   color: #ffffff;
   height: 60px;
-  width: 61px;
+  width: 60px;
   display: inline-block;
   border-radius: 9999px;
   background: #622c8a;
   box-shadow: 0 3px 2px 0 #76bb02;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  outline: none;
   transition: 1.75s ease-in-out;
-  margin: 0 auto;
-  padding: 0;
-  line-height: 60px;
-  text-align: center;
+  line-height: 59px;
+  top: 50%;
+  left: 50%;
 }
 
 .downloadButton:hover {
@@ -1029,18 +1037,16 @@ svg {
 .contactButton {
   color: #ffffff;
   height: 60px;
-  width: 61px;
+  width: 60px;
   display: inline-block;
   border-radius: 9999px;
   background: #622c8a;
   box-shadow: 0 3px 2px 0 #76bb02;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  outline: none;
   transition: 1.75s ease-in-out;
-  margin: 0 auto;
-  padding: 0;
-  line-height: 60px;
-  text-align: center;
+  line-height: 59px;
+  top: 50%;
+  left: 50%;
 }
 
 .contactButton:hover {
@@ -1054,6 +1060,7 @@ svg {
 .contactButton:hover svg {
   stroke-dashoffset: -480;
 }
+
 /*********************************************    End Buttons     ********************************/
 
 .joemendezhughes {
