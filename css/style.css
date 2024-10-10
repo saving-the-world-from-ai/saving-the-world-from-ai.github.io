@@ -1039,10 +1039,7 @@ svg {
 
 .joemendezhughes {
   border: 1px solid #622c8a;
-  padding-top: 30px;
-  padding-bottom: 25px;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding: 20px;
   background: #121212;
   justify-content: center;
   align-items: center;
@@ -1053,7 +1050,6 @@ svg {
   font-size: 1.075rem;
   line-height: 1.6;
   font-weight: 400;
-  color: rgba(255, 255, 255, 1);
 }
 
 /********************************************        NAVBAR          ********************************/
@@ -1153,56 +1149,33 @@ a {
 
 .titleMessage {
   position: absolute;
-  width: 100%;
-  height: auto;
-  bottom: 20%;
-  z-index: 5;
-  text-align: center;
-}
-
-.titleMessage .arrow {
-  text-align: center;
-  margin: 5% 0;
-}
-
-.arrow {
-  position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
+  transform: translate(-50%, 0);
+  padding: 10px;
+  bottom: 0;
+  padding-bottom: 2%;
 }
 
-.arrow span {
-  display: block;
-  width: 1.5vw;
-  height: 1.5vw;
-  border-bottom: 5px solid #76bb02;
-  border-right: 5px solid #76bb02;
-  transform: rotate(45deg);
-  margin-bottom: 20px;
-  margin: -10px;
-  animation: animate 2s infinite;
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
 }
 
-.arrow span:nth-child(2) {
-  animation-delay: -0.2s;
-}
-
-.arrow span:nth-child(3) {
-  animation-delay: -0.4s;
-}
-
-@keyframes animate {
-  0% {
-    opacity: 0;
-    transform: rotate(45deg) translate(-20px, -20px);
-  }
-  50% {
-    opacity: 1;
-  }
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
   100% {
-    opacity: 0;
-    transform: rotate(45deg) translate(20px, 20px);
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
   }
 }
