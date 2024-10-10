@@ -980,7 +980,7 @@ canvas {
   box-shadow: 0 3px 2px 0 #76bb02;
   border: 1px solid rgba(255, 255, 255, 0.18);
   transition: 1.75s ease-in-out;
-  line-height: 59px;
+  line-height: 58px;
   top: 50%;
   left: 50%;
 }
