@@ -1035,6 +1035,15 @@ svg {
   stroke-dashoffset: -480;
 }
 
+.contactButton {
+    margin: 0 auto;
+}
+
+.downloadButton i {
+    margin: 0 auto;
+    padding-left: 1px    
+}
+
 /*********************************************    End Buttons     ********************************/
 
 .joemendezhughes {
