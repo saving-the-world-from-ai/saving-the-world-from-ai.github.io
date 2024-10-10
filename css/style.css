@@ -977,7 +977,7 @@ canvas {
   display: inline-block;
   border-radius: 9999px;
   background: #622c8a;
-  box-shadow: 0 3px 2px 0 #76bb02;
+  box-shadow: 0 5px 12px 0 #76B900;
   border: 1px solid rgba(255, 255, 255, 0.18);
   transition: 1.75s ease-in-out;
   line-height: 58px;
@@ -1015,7 +1015,7 @@ svg {
   display: inline-block;
   border-radius: 9999px;
   background: #622c8a;
-  box-shadow: 0 3px 2px 0 #76bb02;
+  box-shadow: 0 5px 12px 0 #76B900;
   border: 1px solid rgba(255, 255, 255, 0.18);
   transition: 1.75s ease-in-out;
   line-height: 59px;
