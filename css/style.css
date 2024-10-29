@@ -595,65 +595,13 @@ ul {
   position: absolute; /* So it can stretch behind everything */
   top: 0;
   right: 80%;
-  width: 25%; /* Make the image span the entire width */
-  height: 100%; /* Make the image span the entire height */
-  object-fit: cover; /* Ensures the image covers the section without distortion */
-  object-position: center;
-}
-
-.resume-section2 {
-  mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
-  z-index: 1;
-  pointer-events: none; /* Prevent interactions with the image */
-  position: absolute; /* So it can stretch behind everything */
-  top: 0;
-  right: 80%;
-  width: 25%; /* Make the image span the entire width */
-  height: 100%; /* Make the image span the entire height */
-  object-fit: cover; /* Ensures the image covers the section without distortion */
-  object-position: center;
-}
-
-.resume-section3 {
-  mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
-  z-index: 1;
-  pointer-events: none; /* Prevent interactions with the image */
-  position: absolute; /* So it can stretch behind everything */
-  top: 0;
-  right: 80%;
-  width: 20%; /* Make the image span the entire width */
-  height: 100%; /* Make the image span the entire height */
-  object-fit: cover; /* Ensures the image covers the section without distortion */
-  object-position: center;
-}
-
-.resume-section4 {
-  mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
-  z-index: 1;
-  pointer-events: none; /* Prevent interactions with the image */
-  position: absolute; /* So it can stretch behind everything */
-  top: 0;
-  right: 75%;
-  width: 30%; /* Make the image span the entire width */
+  width: 50%; /* Make the image span the entire width */
   height: 100%; /* Make the image span the entire height */
   object-fit: cover; /* Ensures the image covers the section without distortion */
   object-position: center;
 }
 
 .resume-section1 img {
-  max-width: 100%;
-  height: auto;
-}
-.resume-section2 img {
-  max-width: 100%;
-  height: auto;
-}
-
-.resume-section3 img {
-  max-width: 100%;
-  height: auto;
-}
-.resume-section4 img {
   max-width: 100%;
   height: auto;
 }
